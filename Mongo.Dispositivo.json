@@ -1,0 +1,350 @@
+[{
+  "_id": 1,
+  "id_dispositivo_movil": 1,
+  "id_usuario": 1,
+  "numero_serie": "DEF456",
+  "sistema_operativo": "Android"
+},
+{
+  "_id": 2,
+  "id_dispositivo_movil": 2,
+  "id_usuario": 2,
+  "numero_serie": "GHI789",
+  "sistema_operativo": "iOS"
+},
+{
+  "_id": 3,
+  "id_dispositivo_movil": 3,
+  "id_usuario": 3,
+  "numero_serie": "JKL012",
+  "sistema_operativo": "Android"
+},
+{
+  "_id": 4,
+  "id_dispositivo_movil": 4,
+  "id_usuario": 4,
+  "numero_serie": "MNO345",
+  "sistema_operativo": "iOS"
+},
+{
+  "_id": 5,
+  "id_dispositivo_movil": 5,
+  "id_usuario": 5,
+  "numero_serie": "PQR678",
+  "sistema_operativo": "Android"
+},
+{
+  "_id": 6,
+  "id_dispositivo_movil": 6,
+  "id_usuario": 6,
+  "numero_serie": "STU901",
+  "sistema_operativo": "iOS"
+},
+{
+  "_id": 7,
+  "id_dispositivo_movil": 7,
+  "id_usuario": 7,
+  "numero_serie": "VWX234",
+  "sistema_operativo": "Android"
+},
+{
+  "_id": 8,
+  "id_dispositivo_movil": 8,
+  "id_usuario": 8,
+  "numero_serie": "YZA567",
+  "sistema_operativo": "iOS"
+},
+{
+  "_id": 9,
+  "id_dispositivo_movil": 9,
+  "id_usuario": 9,
+  "numero_serie": "BCD890",
+  "sistema_operativo": "Android"
+},
+{
+  "_id": 10,
+  "id_dispositivo_movil": 10,
+  "id_usuario": 10,
+  "numero_serie": "EFG123",
+  "sistema_operativo": "iOS"
+},
+{
+  "_id": 11,
+  "id_dispositivo_movil": 11,
+  "id_usuario": 11,
+  "numero_serie": "HIJ456",
+  "sistema_operativo": "Android"
+},
+{
+  "_id": 12,
+  "id_dispositivo_movil": 12,
+  "id_usuario": 12,
+  "numero_serie": "KLM789",
+  "sistema_operativo": "iOS"
+},
+{
+  "_id": 13,
+  "id_dispositivo_movil": 13,
+  "id_usuario": 13,
+  "numero_serie": "NOP012",
+  "sistema_operativo": "Android"
+},
+{
+  "_id": 14,
+  "id_dispositivo_movil": 14,
+  "id_usuario": 14,
+  "numero_serie": "PQR345",
+  "sistema_operativo": "iOS"
+},
+{
+  "_id": 15,
+  "id_dispositivo_movil": 15,
+  "id_usuario": 15,
+  "numero_serie": "STU678",
+  "sistema_operativo": "Android"
+},
+{
+  "_id": 16,
+  "id_dispositivo_movil": 16,
+  "id_usuario": 16,
+  "numero_serie": "VWX901",
+  "sistema_operativo": "iOS"
+},
+{
+  "_id": 17,
+  "id_dispositivo_movil": 17,
+  "id_usuario": 17,
+  "numero_serie": "YZA234",
+  "sistema_operativo": "Android"
+},
+{
+  "_id": 18,
+  "id_dispositivo_movil": 18,
+  "id_usuario": 18,
+  "numero_serie": "BCD567",
+  "sistema_operativo": "iOS"
+},
+{
+  "_id": 19,
+  "id_dispositivo_movil": 19,
+  "id_usuario": 19,
+  "numero_serie": "EFG890",
+  "sistema_operativo": "Android"
+},
+{
+  "_id": 20,
+  "id_dispositivo_movil": 20,
+  "id_usuario": 20,
+  "numero_serie": "HIJ123",
+  "sistema_operativo": "iOS"
+},
+{
+  "_id": 21,
+  "id_dispositivo_movil": 21,
+  "id_usuario": 21,
+  "numero_serie": "KLM456",
+  "sistema_operativo": "Android"
+},
+{
+  "_id": 22,
+  "id_dispositivo_movil": 22,
+  "id_usuario": 22,
+  "numero_serie": "NOP789",
+  "sistema_operativo": "iOS"
+},
+{
+  "_id": 23,
+  "id_dispositivo_movil": 23,
+  "id_usuario": 23,
+  "numero_serie": "PQR012",
+  "sistema_operativo": "Android"
+},
+{
+  "_id": 24,
+  "id_dispositivo_movil": 24,
+  "id_usuario": 24,
+  "numero_serie": "STU345",
+  "sistema_operativo": "iOS"
+},
+{
+  "_id": 25,
+  "id_dispositivo_movil": 25,
+  "id_usuario": 25,
+  "numero_serie": "VWX678",
+  "sistema_operativo": "Android"
+},
+{
+  "_id": 26,
+  "id_dispositivo_movil": 26,
+  "id_usuario": 26,
+  "numero_serie": "YZA901",
+  "sistema_operativo": "iOS"
+},
+{
+  "_id": 27,
+  "id_dispositivo_movil": 27,
+  "id_usuario": 27,
+  "numero_serie": "BCD234",
+  "sistema_operativo": "Android"
+},
+{
+  "_id": 28,
+  "id_dispositivo_movil": 28,
+  "id_usuario": 28,
+  "numero_serie": "EFG567",
+  "sistema_operativo": "iOS"
+},
+{
+  "_id": 29,
+  "id_dispositivo_movil": 29,
+  "id_usuario": 29,
+  "numero_serie": "HIJ890",
+  "sistema_operativo": "Android"
+},
+{
+  "_id": 30,
+  "id_dispositivo_movil": 30,
+  "id_usuario": 30,
+  "numero_serie": "KLM123",
+  "sistema_operativo": "iOS"
+},
+{
+  "_id": 31,
+  "id_dispositivo_movil": 31,
+  "id_usuario": 31,
+  "numero_serie": "NOP456",
+  "sistema_operativo": "Android"
+},
+{
+  "_id": 32,
+  "id_dispositivo_movil": 32,
+  "id_usuario": 32,
+  "numero_serie": "PQR789",
+  "sistema_operativo": "iOS"
+},
+{
+  "_id": 33,
+  "id_dispositivo_movil": 33,
+  "id_usuario": 33,
+  "numero_serie": "STU012",
+  "sistema_operativo": "Android"
+},
+{
+  "_id": 34,
+  "id_dispositivo_movil": 34,
+  "id_usuario": 34,
+  "numero_serie": "VWX345",
+  "sistema_operativo": "iOS"
+},
+{
+  "_id": 35,
+  "id_dispositivo_movil": 35,
+  "id_usuario": 35,
+  "numero_serie": "YZA678",
+  "sistema_operativo": "Android"
+},
+{
+  "_id": 36,
+  "id_dispositivo_movil": 36,
+  "id_usuario": 36,
+  "numero_serie": "BCD901",
+  "sistema_operativo": "iOS"
+},
+{
+  "_id": 37,
+  "id_dispositivo_movil": 37,
+  "id_usuario": 37,
+  "numero_serie": "EFG234",
+  "sistema_operativo": "Android"
+},
+{
+  "_id": 38,
+  "id_dispositivo_movil": 38,
+  "id_usuario": 38,
+  "numero_serie": "HIJ567",
+  "sistema_operativo": "iOS"
+},
+{
+  "_id": 39,
+  "id_dispositivo_movil": 39,
+  "id_usuario": 39,
+  "numero_serie": "KLM890",
+  "sistema_operativo": "Android"
+},
+{
+  "_id": 40,
+  "id_dispositivo_movil": 40,
+  "id_usuario": 40,
+  "numero_serie": "NOP123",
+  "sistema_operativo": "iOS"
+},
+{
+  "_id": 41,
+  "id_dispositivo_movil": 41,
+  "id_usuario": 41,
+  "numero_serie": "PQR456",
+  "sistema_operativo": "Android"
+},
+{
+  "_id": 42,
+  "id_dispositivo_movil": 42,
+  "id_usuario": 42,
+  "numero_serie": "STU789",
+  "sistema_operativo": "iOS"
+},
+{
+  "_id": 43,
+  "id_dispositivo_movil": 43,
+  "id_usuario": 43,
+  "numero_serie": "VWX012",
+  "sistema_operativo": "Android"
+},
+{
+  "_id": 44,
+  "id_dispositivo_movil": 44,
+  "id_usuario": 44,
+  "numero_serie": "YZA345",
+  "sistema_operativo": "iOS"
+},
+{
+  "_id": 45,
+  "id_dispositivo_movil": 45,
+  "id_usuario": 45,
+  "numero_serie": "BCD678",
+  "sistema_operativo": "Android"
+},
+{
+  "_id": 46,
+  "id_dispositivo_movil": 46,
+  "id_usuario": 46,
+  "numero_serie": "EFG901",
+  "sistema_operativo": "iOS"
+},
+{
+  "_id": 47,
+  "id_dispositivo_movil": 47,
+  "id_usuario": 47,
+  "numero_serie": "HIJ234",
+  "sistema_operativo": "Android"
+},
+{
+  "_id": 48,
+  "id_dispositivo_movil": 48,
+  "id_usuario": 48,
+  "numero_serie": "KLM567",
+  "sistema_operativo": "iOS"
+},
+{
+  "_id": 49,
+  "id_dispositivo_movil": 49,
+  "id_usuario": 49,
+  "numero_serie": "NOP890",
+  "sistema_operativo": "Android"
+},
+{
+  "_id": 50,
+  "id_dispositivo_movil": 50,
+  "id_usuario": 50,
+  "numero_serie": "PQR123",
+  "sistema_operativo": "iOS"
+}]

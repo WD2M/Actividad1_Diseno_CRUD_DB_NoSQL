@@ -1,0 +1,5293 @@
+[{
+  "_id": 1,
+  "id_adulto_mayor": 1,
+  "id_familiar": 1,
+  "nombre": "Juan",
+  "apellido": "Perez",
+  "fecha_nacimiento": "1940-05-15T00:00:00Z",
+  "genero": "Masculino",
+  "familiares": [
+    {
+      "id_familiar": 1,
+      "nombre": "Carlos",
+      "apellido": "Perez",
+      "direccion": "Calle 123",
+      "telefono": "987654321",
+      "distrito": "Centro",
+      "provincia": "Lima"
+    }
+  ],
+  "vita_care_pulse": [
+    {
+      "id_vita_care_pulse": 1,
+      "numero_serie": "ABC123",
+      "fecha_activacion": "2020-01-01T00:00:00Z",
+      "estado_vita_care_pulse": "Activo",
+      "logs": [
+        {
+          "id_log": 1,
+          "fecha_registro": "2020-01-01T00:00:00Z",
+          "descripcion": "Activación del dispositivo"
+        }
+      ],
+      "integracion_sistema_salud": [
+        {
+          "id_integracion_sistema_salud": 1,
+          "id_profesional_medico": 1,
+          "fecha_integracion": "2020-01-02T00:00:00Z",
+          "estado_integracion_sistema_salud": "Completa"
+        }
+      ],
+      "signos_vitales": [
+        {
+          "id_signo_vital": 1,
+          "tipo_signo_vital": "Presión Arterial",
+          "valor": 120,
+          "fecha_registro": "2020-01-03T00:00:00Z"
+        }
+      ],
+      "conectividad": [
+        {
+          "id_conectividad": 1,
+          "fecha_conexion": "2020-01-04T00:00:00Z",
+          "estado_conectividad": "Conectado"
+        }
+      ],
+      "notificaciones": [
+        {
+          "id_notificacion": 1,
+          "tipo_notificacion": "Alerta",
+          "mensaje": "Alta presión arterial",
+          "fecha_envio": "2020-01-05T00:00:00Z"
+        }
+      ],
+      "configuracion": [
+        {
+          "id_configuracion": 1,
+          "parametro": "Umbral presión",
+          "valor": "140"
+        }
+      ]
+    }
+  ],
+  "historial_salud": [
+    {
+      "id_historial_salud": 1,
+      "fecha_registro": "2020-01-06T00:00:00Z",
+      "descripcion": "Control anual",
+      "prescripciones": [
+        {
+          "id_prescripciones": 1,
+          "fecha_inicio": "2020-01-07T00:00:00Z",
+          "fecha_fin": "2020-12-31T00:00:00Z",
+          "recetas": [
+            {
+              "id_receta": 1,
+              "medicamento": "Aspirina",
+              "dosis": "100mg",
+              "frecuencia": "Diaria",
+              "fecha_inicio": "2020-01-07T00:00:00Z",
+              "fecha_fin": "2020-12-31T00:00:00Z",
+              "notas": "Tomar después del desayuno"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "agenda": [
+    {
+      "id_agenda": 1,
+      "id_receta": 1,
+      "id_dispositivo_movil": 1,
+      "fecha_y_hora_agenda": "2020-01-08T09:00:00Z"
+    }
+  ]
+},
+{
+  "_id": 2,
+  "id_adulto_mayor": 2,
+  "id_familiar": 2,
+  "nombre": "Juanes",
+  "apellido": "Serez",
+  "fecha_nacimiento": "1940-05-15T00:00:00Z",
+  "genero": "Masculino",
+  "familiares": [
+    {
+      "id_familiar": 2,
+      "nombre": "Karlos",
+      "apellido": "Serez",
+      "direccion": "Calle 1023",
+      "telefono": "955654321",
+      "distrito": "Centro",
+      "provincia": "Lima"
+    }
+  ],
+  "vita_care_pulse": [
+    {
+      "id_vita_care_pulse": 2,
+      "numero_serie": "ABC123",
+      "fecha_activacion": "2020-01-01T00:00:00Z",
+      "estado_vita_care_pulse": "Activo",
+      "logs": [
+        {
+          "id_log": 2,
+          "fecha_registro": "2020-01-01T00:00:00Z",
+          "descripcion": "Activación del dispositivo"
+        }
+      ],
+      "integracion_sistema_salud": [
+        {
+          "id_integracion_sistema_salud": 2,
+          "id_profesional_medico": 2,
+          "fecha_integracion": "2020-01-02T00:00:00Z",
+          "estado_integracion_sistema_salud": "Completa"
+        }
+      ],
+      "signos_vitales": [
+        {
+          "id_signo_vital": 2,
+          "tipo_signo_vital": "Presión Arterial",
+          "valor": 120,
+          "fecha_registro": "2020-01-03T00:00:00Z"
+        }
+      ],
+      "conectividad": [
+        {
+          "id_conectividad": 2,
+          "fecha_conexion": "2020-01-04T00:00:00Z",
+          "estado_conectividad": "Conectado"
+        }
+      ],
+      "notificaciones": [
+        {
+          "id_notificacion": 2,
+          "tipo_notificacion": "Alerta",
+          "mensaje": "Alta presión arterial",
+          "fecha_envio": "2020-01-05T00:00:00Z"
+        }
+      ],
+      "configuracion": [
+        {
+          "id_configuracion": 2,
+          "parametro": "Umbral presión",
+          "valor": "140"
+        }
+      ]
+    }
+  ],
+  "historial_salud": [
+    {
+      "id_historial_salud": 2,
+      "fecha_registro": "2020-01-06T00:00:00Z",
+      "descripcion": "Control anual",
+      "prescripciones": [
+        {
+          "id_prescripciones": 2,
+          "fecha_inicio": "2020-01-07T00:00:00Z",
+          "fecha_fin": "2020-12-31T00:00:00Z",
+          "recetas": [
+            {
+              "id_receta": 2,
+              "medicamento": "Aspirina",
+              "dosis": "100mg",
+              "frecuencia": "Diaria",
+              "fecha_inicio": "2020-01-07T00:00:00Z",
+              "fecha_fin": "2020-12-31T00:00:00Z",
+              "notas": "Tomar después del desayuno"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "agenda": [
+    {
+      "id_agenda": 2,
+      "id_receta": 2,
+      "id_dispositivo_movil": 2,
+      "fecha_y_hora_agenda": "2020-01-08T09:00:00Z"
+    }
+  ]
+},
+{
+  "_id": 3,
+  "id_adulto_mayor": 3,
+  "id_familiar": 3,
+  "nombre": "Pedro",
+  "apellido": "Gonzalez",
+  "fecha_nacimiento": "1945-03-10T00:00:00Z",
+  "genero": "Masculino",
+  "familiares": [
+    {
+      "id_familiar": 3,
+      "nombre": "Luis",
+      "apellido": "Gonzalez",
+      "direccion": "Calle 789",
+      "telefono": "987654323",
+      "distrito": "San Borja",
+      "provincia": "Lima"
+    }
+  ],
+  "vita_care_pulse": [
+    {
+      "id_vita_care_pulse": 3,
+      "numero_serie": "GHI789",
+      "fecha_activacion": "2019-03-01T00:00:00Z",
+      "estado_vita_care_pulse": "Activo",
+      "logs": [
+        {
+          "id_log": 3,
+          "fecha_registro": "2019-03-01T00:00:00Z",
+          "descripcion": "Activación del dispositivo"
+        }
+      ],
+      "integracion_sistema_salud": [
+        {
+          "id_integracion_sistema_salud": 3,
+          "id_profesional_medico": 3,
+          "fecha_integracion": "2019-03-02T00:00:00Z",
+          "estado_integracion_sistema_salud": "Completa"
+        }
+      ],
+      "signos_vitales": [
+        {
+          "id_signo_vital": 3,
+          "tipo_signo_vital": "Presión Arterial",
+          "valor": 130,
+          "fecha_registro": "2019-03-03T00:00:00Z"
+        }
+      ],
+      "conectividad": [
+        {
+          "id_conectividad": 3,
+          "fecha_conexion": "2019-03-04T00:00:00Z",
+          "estado_conectividad": "Conectado"
+        }
+      ],
+      "notificaciones": [
+        {
+          "id_notificacion": 3,
+          "tipo_notificacion": "Alerta",
+          "mensaje": "Alta presión arterial",
+          "fecha_envio": "2019-03-05T00:00:00Z"
+        }
+      ],
+      "configuracion": [
+        {
+          "id_configuracion": 3,
+          "parametro": "Umbral presión",
+          "valor": "140"
+        }
+      ]
+    }
+  ],
+  "historial_salud": [
+    {
+      "id_historial_salud": 3,
+      "fecha_registro": "2019-03-06T00:00:00Z",
+      "descripcion": "Revisión médica",
+      "prescripciones": [
+        {
+          "id_prescripciones": 3,
+          "fecha_inicio": "2019-03-07T00:00:00Z",
+          "fecha_fin": "2019-12-31T00:00:00Z",
+          "recetas": [
+            {
+              "id_receta": 3,
+              "medicamento": "Ibuprofeno",
+              "dosis": "200mg",
+              "frecuencia": "Cada 12 horas",
+              "fecha_inicio": "2019-03-07T00:00:00Z",
+              "fecha_fin": "2019-12-31T00:00:00Z",
+              "notas": "Tomar con comida"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "agenda": [
+    {
+      "id_agenda": 3,
+      "id_receta": 3,
+      "id_dispositivo_movil": 3,
+      "fecha_y_hora_agenda": "2019-03-08T11:00:00Z"
+    }
+  ]
+},
+{
+  "_id": 4,
+  "id_adulto_mayor": 4,
+  "id_familiar": 4,
+  "nombre": "Lucia",
+  "apellido": "Martinez",
+  "fecha_nacimiento": "1937-12-01T00:00:00Z",
+  "genero": "Femenino",
+  "familiares": [
+    {
+      "id_familiar": 3,
+      "nombre": "Luisa",
+      "apellido": "Gonzalez",
+      "direccion": "Calle 709",
+      "telefono": "982354323",
+      "distrito": "San Borja",
+      "provincia": "Lima"
+    }
+  ],
+  "vita_care_pulse": [
+    {
+      "id_vita_care_pulse": 4,
+      "numero_serie": "GJI789",
+      "fecha_activacion": "2019-03-01T00:00:00Z",
+      "estado_vita_care_pulse": "Activo",
+      "logs": [
+        {
+          "id_log": 3,
+          "fecha_registro": "2019-03-01T00:00:00Z",
+          "descripcion": "Activación del dispositivo"
+        }
+      ],
+      "integracion_sistema_salud": [
+        {
+          "id_integracion_sistema_salud": 4,
+          "id_profesional_medico": 4,
+          "fecha_integracion": "2019-03-02T00:00:00Z",
+          "estado_integracion_sistema_salud": "Completa"
+        }
+      ],
+      "signos_vitales": [
+        {
+          "id_signo_vital": 4,
+          "tipo_signo_vital": "Presión Arterial",
+          "valor": 120,
+          "fecha_registro": "2019-03-03T00:00:00Z"
+        }
+      ],
+      "conectividad": [
+        {
+          "id_conectividad": 4,
+          "fecha_conexion": "2019-03-04T00:00:00Z",
+          "estado_conectividad": "Conectado"
+        }
+      ],
+      "notificaciones": [
+        {
+          "id_notificacion": 4,
+          "tipo_notificacion": "Alerta",
+          "mensaje": "Alta presión arterial",
+          "fecha_envio": "2019-03-05T00:00:00Z"
+        }
+      ],
+      "configuracion": [
+        {
+          "id_configuracion": 4,
+          "parametro": "Umbral presión",
+          "valor": "140"
+        }
+      ]
+    }
+  ],
+  "historial_salud": [
+    {
+      "id_historial_salud": 4,
+      "fecha_registro": "2019-03-06T00:00:00Z",
+      "descripcion": "Revisión médica",
+      "prescripciones": [
+        {
+          "id_prescripciones": 4,
+          "fecha_inicio": "2019-03-07T00:00:00Z",
+          "fecha_fin": "2019-12-31T00:00:00Z",
+          "recetas": [
+            {
+              "id_receta": 4,
+              "medicamento": "Ibuprofeno",
+              "dosis": "200mg",
+              "frecuencia": "Cada 12 horas",
+              "fecha_inicio": "2019-03-07T00:00:00Z",
+              "fecha_fin": "2019-12-31T00:00:00Z",
+              "notas": "Tomar con comida"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "agenda": [
+    {
+      "id_agenda": 4,
+      "id_receta": 4,
+      "id_dispositivo_movil": 4,
+      "fecha_y_hora_agenda": "2019-03-08T11:00:00Z"
+    }
+  ]
+},
+{
+  "_id": 5,
+  "id_adulto_mayor": 5,
+  "id_familiar": 5,
+  "nombre": "Lucia",
+  "apellido": "Martinez",
+  "fecha_nacimiento": "1937-12-01T00:00:00Z",
+  "genero": "Femenino",
+  "familiares": [
+    {
+      "id_familiar": 5,
+      "nombre": "Luisa",
+      "apellido": "Gonzalez",
+      "direccion": "Calle 709",
+      "telefono": "982354323",
+      "distrito": "San Borja",
+      "provincia": "Lima"
+    }
+  ],
+  "vita_care_pulse": [
+    {
+      "id_vita_care_pulse": 5,
+      "numero_serie": "GJI789",
+      "fecha_activacion": "2019-03-01T00:00:00Z",
+      "estado_vita_care_pulse": "Activo",
+      "logs": [
+        {
+          "id_log": 5,
+          "fecha_registro": "2019-03-01T00:00:00Z",
+          "descripcion": "Activación del dispositivo"
+        }
+      ],
+      "integracion_sistema_salud": [
+        {
+          "id_integracion_sistema_salud": 5,
+          "id_profesional_medico": 5,
+          "fecha_integracion": "2019-03-02T00:00:00Z",
+          "estado_integracion_sistema_salud": "Completa"
+        }
+      ],
+      "signos_vitales": [
+        {
+          "id_signo_vital": 5,
+          "tipo_signo_vital": "Presión Arterial",
+          "valor": 120,
+          "fecha_registro": "2019-03-03T00:00:00Z"
+        }
+      ],
+      "conectividad": [
+        {
+          "id_conectividad": 5,
+          "fecha_conexion": "2019-03-04T00:00:00Z",
+          "estado_conectividad": "Conectado"
+        }
+      ],
+      "notificaciones": [
+        {
+          "id_notificacion": 5,
+          "tipo_notificacion": "Alerta",
+          "mensaje": "Alta presión arterial",
+          "fecha_envio": "2019-03-05T00:00:00Z"
+        }
+      ],
+      "configuracion": [
+        {
+          "id_configuracion": 5,
+          "parametro": "Umbral presión",
+          "valor": "140"
+        }
+      ]
+    }
+  ],
+  "historial_salud": [
+    {
+      "id_historial_salud": 5,
+      "fecha_registro": "2019-03-06T00:00:00Z",
+      "descripcion": "Revisión médica",
+      "prescripciones": [
+        {
+          "id_prescripciones": 5,
+          "fecha_inicio": "2019-03-07T00:00:00Z",
+          "fecha_fin": "2019-12-31T00:00:00Z",
+          "recetas": [
+            {
+              "id_receta": 5,
+              "medicamento": "Ibuprofeno",
+              "dosis": "200mg",
+              "frecuencia": "Cada 12 horas",
+              "fecha_inicio": "2019-03-07T00:00:00Z",
+              "fecha_fin": "2019-12-31T00:00:00Z",
+              "notas": "Tomar con comida"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "agenda": [
+    {
+      "id_agenda": 5,
+      "id_receta": 5,
+      "id_dispositivo_movil": 5,
+      "fecha_y_hora_agenda": "2019-03-08T11:00:00Z"
+    }
+  ]
+},
+{
+  "_id": 6,
+  "id_adulto_mayor": 6,
+  "id_familiar": 6,
+  "nombre": "Isabel",
+  "apellido": "Garcia",
+  "fecha_nacimiento": "1939-09-12T00:00:00Z",
+  "genero": "Femenino",
+  "familiares": [
+    {
+      "id_familiar": 6,
+      "nombre": "Pablo",
+      "apellido": "Garcia",
+      "direccion": "Avenida 303",
+      "telefono": "987654326",
+      "distrito": "Chorrillos",
+      "provincia": "Lima"
+    }
+  ],
+  "vita_care_pulse": [
+    {
+      "id_vita_care_pulse": 6,
+      "numero_serie": "PQR678",
+      "fecha_activacion": "2016-06-01T00:00:00Z",
+      "estado_vita_care_pulse": "Activo",
+      "logs": [
+        {
+          "id_log": 6,
+          "fecha_registro": "2016-06-01T00:00:00Z",
+          "descripcion": "Activación del dispositivo"
+        }
+      ],
+      "integracion_sistema_salud": [
+        {
+          "id_integracion_sistema_salud": 6,
+          "id_profesional_medico": 6,
+          "fecha_integracion": "2016-06-02T00:00:00Z",
+          "estado_integracion_sistema_salud": "Completa"
+        }
+      ],
+      "signos_vitales": [
+        {
+          "id_signo_vital": 6,
+          "tipo_signo_vital": "Nivel de Glucosa",
+          "valor": 120,
+          "fecha_registro": "2016-06-03T00:00:00Z"
+        }
+      ],
+      "conectividad": [
+        {
+          "id_conectividad": 6,
+          "fecha_conexion": "2016-06-04T00:00:00Z",
+          "estado_conectividad": "Conectado"
+        }
+      ],
+      "notificaciones": [
+        {
+          "id_notificacion": 6,
+          "tipo_notificacion": "Alerta",
+          "mensaje": "Nivel de glucosa alto",
+          "fecha_envio": "2016-06-05T00:00:00Z"
+        }
+      ],
+      "configuracion": [
+        {
+          "id_configuracion": 6,
+          "parametro": "Umbral nivel de glucosa",
+          "valor": "150"
+        }
+      ]
+    }
+  ],
+  "historial_salud": [
+    {
+      "id_historial_salud": 6,
+      "fecha_registro": "2016-06-06T00:00:00Z",
+      "descripcion": "Consulta especializada",
+      "prescripciones": [
+        {
+          "id_prescripciones": 6,
+          "fecha_inicio": "2016-06-07T00:00:00Z",
+          "fecha_fin": "2016-12-31T00:00:00Z",
+          "recetas": [
+            {
+              "id_receta": 6,
+              "medicamento": "Metformina",
+              "dosis": "500mg",
+              "frecuencia": "Diaria",
+              "fecha_inicio": "2016-06-07T00:00:00Z",
+              "fecha_fin": "2016-12-31T00:00:00Z",
+              "notas": "Tomar con la cena"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "agenda": [
+    {
+      "id_agenda": 6,
+      "id_receta": 6,
+      "id_dispositivo_movil": 6,
+      "fecha_y_hora_agenda": "2016-06-08T14:00:00Z"
+    }
+  ]
+},
+{
+  "_id": 7,
+  "id_adulto_mayor": 7,
+  "id_familiar": 7,
+  "nombre": "Elena",
+  "apellido": "Hernandez",
+  "fecha_nacimiento": "1943-02-18T00:00:00Z",
+  "genero": "Femenino",
+  "familiares": [
+    {
+      "id_familiar": 7,
+      "nombre": "Lorena",
+      "apellido": "Hernandez",
+      "direccion": "Calle 404",
+      "telefono": "987654327",
+      "distrito": "San Isidro",
+      "provincia": "Lima"
+    }
+  ],
+  "vita_care_pulse": [
+    {
+      "id_vita_care_pulse": 7,
+      "numero_serie": "STU901",
+      "fecha_activacion": "2015-07-01T00:00:00Z",
+      "estado_vita_care_pulse": "Activo",
+      "logs": [
+        {
+          "id_log": 7,
+          "fecha_registro": "2015-07-01T00:00:00Z",
+          "descripcion": "Activación del dispositivo"
+        }
+      ],
+      "integracion_sistema_salud": [
+        {
+          "id_integracion_sistema_salud": 7,
+          "id_profesional_medico": 7,
+          "fecha_integracion": "2015-07-02T00:00:00Z",
+          "estado_integracion_sistema_salud": "Completa"
+        }
+      ],
+      "signos_vitales": [
+        {
+          "id_signo_vital": 7,
+          "tipo_signo_vital": "Índice de Masa Corporal",
+          "valor": 28.5,
+          "fecha_registro": "2015-07-03T00:00:00Z"
+        }
+      ],
+      "conectividad": [
+        {
+          "id_conectividad": 7,
+          "fecha_conexion": "2015-07-04T00:00:00Z",
+          "estado_conectividad": "Conectado"
+        }
+      ],
+      "notificaciones": [
+        {
+          "id_notificacion": 7,
+          "tipo_notificacion": "Alerta",
+          "mensaje": "Sobrepeso",
+          "fecha_envio": "2015-07-05T00:00:00Z"
+        }
+      ],
+      "configuracion": [
+        {
+          "id_configuracion": 7,
+          "parametro": "Umbral IMC",
+          "valor": "30"
+        }
+      ]
+    }
+  ],
+  "historial_salud": [
+    {
+      "id_historial_salud": 7,
+      "fecha_registro": "2015-07-06T00:00:00Z",
+      "descripcion": "Consulta nutricional",
+      "prescripciones": [
+        {
+          "id_prescripciones": 7,
+          "fecha_inicio": "2015-07-07T00:00:00Z",
+          "fecha_fin": "2015-12-31T00:00:00Z",
+          "recetas": [
+            {
+              "id_receta": 7,
+              "medicamento": "Vitamina D",
+              "dosis": "1000 UI",
+              "frecuencia": "Semanal",
+              "fecha_inicio": "2015-07-07T00:00:00Z",
+              "fecha_fin": "2015-12-31T00:00:00Z",
+              "notas": "Tomar por la noche"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "agenda": [
+    {
+      "id_agenda": 7,
+      "id_receta": 7,
+      "id_dispositivo_movil": 7,
+      "fecha_y_hora_agenda": "2015-07-08T15:00:00Z"
+    }
+  ]
+},
+{
+  "_id": 8,
+  "id_adulto_mayor": 8,
+  "id_familiar": 8,
+  "nombre": "María",
+  "apellido": "Gómez",
+  "fecha_nacimiento": "1945-08-12T00:00:00Z",
+  "genero": "Femenino",
+  "familiares": [
+    {
+      "id_familiar": 8,
+      "nombre": "Carlos",
+      "apellido": "Gómez",
+      "direccion": "Av. Primavera 123",
+      "telefono": "987654321",
+      "distrito": "Miraflores",
+      "provincia": "Lima"
+    }
+  ],
+  "vita_care_pulse": [
+    {
+      "id_vita_care_pulse": 8,
+      "numero_serie": "ABC123",
+      "fecha_activacion": "2016-02-20T00:00:00Z",
+      "estado_vita_care_pulse": "Inactivo",
+      "logs": [
+        {
+          "id_log": 8,
+          "fecha_registro": "2016-02-20T00:00:00Z",
+          "descripcion": "Desactivación temporal del dispositivo"
+        }
+      ],
+      "integracion_sistema_salud": [],
+      "signos_vitales": [
+        {
+          "id_signo_vital": 8,
+          "tipo_signo_vital": "Presión Arterial",
+          "valor": "130/80 mmHg",
+          "fecha_registro": "2020-05-10T08:00:00Z"
+        }
+      ],
+      "conectividad": [
+        {
+          "id_conectividad": 8,
+          "fecha_conexion": "2021-01-15T12:30:00Z",
+          "estado_conectividad": "Desconectado"
+        }
+      ],
+      "notificaciones": [
+        {
+          "id_notificacion": 7,
+          "tipo_notificacion": "Alerta",
+          "mensaje": "Sobrepeso",
+          "fecha_envio": "2015-07-05T00:00:00Z"
+        }
+      ],
+      "configuracion": [
+        {
+          "id_configuracion": 7,
+          "parametro": "Umbral IMC",
+          "valor": "30"
+        }
+      ]
+    }
+  ],
+  "historial_salud": [
+    {
+      "id_historial_salud": 8,
+      "fecha_registro": "2018-09-05T00:00:00Z",
+      "descripcion": "Consulta con cardiólogo",
+      "prescripciones": [
+        {
+          "id_prescripciones": 8,
+          "fecha_inicio": "2018-09-06T00:00:00Z",
+          "fecha_fin": "2018-10-05T00:00:00Z",
+          "recetas": [
+            {
+              "id_receta": 8,
+              "medicamento": "Losartán",
+              "dosis": "50 mg",
+              "frecuencia": "Diaria",
+              "fecha_inicio": "2018-09-06T00:00:00Z",
+              "fecha_fin": "2018-10-05T00:00:00Z",
+              "notas": "Tomar por la mañana"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "agenda": [
+    {
+      "id_agenda": 8,
+      "id_receta": 8,
+      "id_dispositivo_movil": 8,
+      "fecha_y_hora_agenda": "2022-03-15T16:00:00Z"
+    }
+  ]
+},
+{
+  "_id": 9,
+  "id_adulto_mayor": 9,
+  "id_familiar": 9,
+  "nombre": "Juan",
+  "apellido": "Martínez",
+  "fecha_nacimiento": "1938-11-30T00:00:00Z",
+  "genero": "Masculino",
+  "familiares": [
+    {
+      "id_familiar": 9,
+      "nombre": "Ana",
+      "apellido": "Martínez",
+      "direccion": "Calle Azul 456",
+      "telefono": "986123456",
+      "distrito": "San Borja",
+      "provincia": "Lima"
+    }
+  ],
+  "vita_care_pulse": [
+    {
+      "id_vita_care_pulse": 9,
+      "numero_serie": "XYZ789",
+      "fecha_activacion": "2017-10-15T00:00:00Z",
+      "estado_vita_care_pulse": "Activo",
+      "logs": [
+        {
+          "id_log": 9,
+          "fecha_registro": "2017-10-15T00:00:00Z",
+          "descripcion": "Activación del dispositivo"
+        }
+      ],
+      "integracion_sistema_salud": [
+        {
+          "id_integracion_sistema_salud": 9,
+          "id_profesional_medico": 9,
+          "fecha_integracion": "2017-10-16T00:00:00Z",
+          "estado_integracion_sistema_salud": "Pendiente"
+        }
+      ],
+      "signos_vitales": [
+        {
+          "id_signo_vital": 9,
+          "tipo_signo_vital": "Glucosa en Sangre",
+          "valor": 120,
+          "fecha_registro": "2023-01-05T08:30:00Z"
+        }
+      ],
+      "conectividad": [
+        {
+          "id_conectividad": 9,
+          "fecha_conexion": "2023-01-05T10:00:00Z",
+          "estado_conectividad": "Conectado"
+        }
+      ],
+      "notificaciones": [
+        {
+          "id_notificacion": 9,
+          "tipo_notificacion": "Recordatorio",
+          "mensaje": "Tomar medicamento",
+          "fecha_envio": "2023-01-05T09:00:00Z"
+        }
+      ],
+      "configuracion": [
+        {
+          "id_configuracion": 9,
+          "parametro": "Umbral de Glucosa",
+          "valor": "130"
+        }
+      ]
+    }
+  ],
+  "historial_salud": [
+    {
+      "id_historial_salud": 9,
+      "fecha_registro": "2019-04-20T00:00:00Z",
+      "descripcion": "Control de diabetes",
+      "prescripciones": [
+        {
+          "id_prescripciones": 9,
+          "fecha_inicio": "2019-04-21T00:00:00Z",
+          "fecha_fin": "2019-05-20T00:00:00Z",
+          "recetas": [
+            {
+              "id_receta": 9,
+              "medicamento": "Metformina",
+              "dosis": "500 mg",
+              "frecuencia": "Diaria",
+              "fecha_inicio": "2019-04-21T00:00:00Z",
+              "fecha_fin": "2019-05-20T00:00:00Z",
+              "notas": "Tomar con comida"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "agenda": [
+    {
+      "id_agenda": 9,
+      "id_receta": 9,
+      "id_dispositivo_movil": 9,
+      "fecha_y_hora_agenda": "2023-02-10T09:30:00Z"
+    }
+  ]
+},
+{
+  "_id": 10,
+  "id_adulto_mayor": 10,
+  "id_familiar": 10,
+  "nombre": "Pedro",
+  "apellido": "López",
+  "fecha_nacimiento": "1940-05-25T00:00:00Z",
+  "genero": "Masculino",
+  "familiares": [
+    {
+      "id_familiar": 10,
+      "nombre": "María",
+      "apellido": "López",
+      "direccion": "Av. Los Robles 789",
+      "telefono": "987123456",
+      "distrito": "San Isidro",
+      "provincia": "Lima"
+    }
+  ],
+  "vita_care_pulse": [
+    {
+      "id_vita_care_pulse": 10,
+      "numero_serie": "PQR456",
+      "fecha_activacion": "2018-03-10T00:00:00Z",
+      "estado_vita_care_pulse": "Activo",
+      "logs": [
+        {
+          "id_log": 10,
+          "fecha_registro": "2018-03-10T00:00:00Z",
+          "descripcion": "Activación del dispositivo"
+        }
+      ],
+      "integracion_sistema_salud": [
+        {
+          "id_integracion_sistema_salud": 10,
+          "id_profesional_medico": 10,
+          "fecha_integracion": "2017-10-16T00:00:00Z",
+          "estado_integracion_sistema_salud": "Pendiente"
+        }
+      ],
+      "signos_vitales": [
+        {
+          "id_signo_vital": 10,
+          "tipo_signo_vital": "Frecuencia Cardíaca",
+          "valor": 75,
+          "fecha_registro": "2023-04-15T10:00:00Z"
+        }
+      ],
+      "conectividad": [
+        {
+          "id_conectividad": 10,
+          "fecha_conexion": "2023-04-15T10:30:00Z",
+          "estado_conectividad": "Conectado"
+        }
+      ],
+      "notificaciones": [
+        {
+          "id_notificacion": 10,
+          "tipo_notificacion": "Recordatorio",
+          "mensaje": "Tomar medicamento",
+          "fecha_envio": "2023-01-05T09:00:00Z"
+        }
+      ],
+      "configuracion": [
+        {
+          "id_configuracion": 10,
+          "parametro": "Umbral de Glucosa",
+          "valor": "130"
+        }
+      ]
+    }
+  ],
+  "historial_salud": [
+    {
+      "id_historial_salud": 10,
+      "fecha_registro": "2020-01-10T00:00:00Z",
+      "descripcion": "Control de presión arterial",
+      "prescripciones": [
+        {
+          "id_prescripciones": 10,
+          "fecha_inicio": "2020-01-11T00:00:00Z",
+          "fecha_fin": "2020-02-10T00:00:00Z",
+          "recetas": [
+            {
+              "id_receta": 10,
+              "medicamento": "Enalapril",
+              "dosis": "10 mg",
+              "frecuencia": "Diaria",
+              "fecha_inicio": "2020-01-11T00:00:00Z",
+              "fecha_fin": "2020-02-10T00:00:00Z",
+              "notas": "Tomar en la mañana"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "agenda": [
+    {
+      "id_agenda": 10,
+      "id_receta": 10,
+      "id_dispositivo_movil": 10,
+      "fecha_y_hora_agenda": "2023-05-20T11:00:00Z"
+    }
+  ]
+},
+{
+  "_id": 11,
+  "id_adulto_mayor": 11,
+  "id_familiar": 11,
+  "nombre": "Ana",
+  "apellido": "González",
+  "fecha_nacimiento": "1937-12-18T00:00:00Z",
+  "genero": "Femenino",
+  "familiares": [
+    {
+      "id_familiar": 11,
+      "nombre": "Javier",
+      "apellido": "González",
+      "direccion": "Calle Flores 321",
+      "telefono": "986987654",
+      "distrito": "San Borja",
+      "provincia": "Lima"
+    }
+  ],
+  "vita_care_pulse": [
+    {
+      "id_vita_care_pulse": 11,
+      "numero_serie": "LMN789",
+      "fecha_activacion": "2019-08-25T00:00:00Z",
+      "estado_vita_care_pulse": "Activo",
+      "logs": [
+        {
+          "id_log": 11,
+          "fecha_registro": "2019-08-25T00:00:00Z",
+          "descripcion": "Activación del dispositivo"
+        }
+      ],
+      "integracion_sistema_salud": [
+        {
+          "id_integracion_sistema_salud": 11,
+          "id_profesional_medico": 11,
+          "fecha_integracion": "2019-08-26T00:00:00Z",
+          "estado_integracion_sistema_salud": "Completa"
+        }
+      ],
+      "signos_vitales": [
+        {
+          "id_signo_vital": 11,
+          "tipo_signo_vital": "Saturación de Oxígeno",
+          "valor": 98,
+          "fecha_registro": "2023-06-10T09:30:00Z"
+        }
+      ],
+      "conectividad": [
+        {
+          "id_conectividad": 11,
+          "fecha_conexion": "2023-06-10T10:00:00Z",
+          "estado_conectividad": "Conectado"
+        }
+      ],
+      "notificaciones": [
+        {
+          "id_notificacion": 11,
+          "tipo_notificacion": "Alerta",
+          "mensaje": "Baja saturación de oxígeno",
+          "fecha_envio": "2023-06-10T10:15:00Z"
+        }
+      ],
+      "configuracion": [
+        {
+          "id_configuracion": 11,
+          "parametro": "Umbral de Saturación de Oxígeno",
+          "valor": "95"
+        }
+      ]
+    }
+  ],
+  "historial_salud": [
+    {
+      "id_historial_salud": 11,
+      "fecha_registro": "2021-02-20T00:00:00Z",
+      "descripcion": "Consulta médica general",
+      "prescripciones": [
+        {
+          "id_prescripciones": 11,
+          "fecha_inicio": "2021-02-21T00:00:00Z",
+          "fecha_fin": "2021-03-20T00:00:00Z",
+          "recetas": [
+            {
+              "id_receta": 11,
+              "medicamento": "Paracetamol",
+              "dosis": "500 mg",
+              "frecuencia": "Cada 6 horas",
+              "fecha_inicio": "2021-02-21T00:00:00Z",
+              "fecha_fin": "2021-03-20T00:00:00Z",
+              "notas": "Tomar con comida"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "agenda": [
+    {
+      "id_agenda": 11,
+      "id_receta": 11,
+      "id_dispositivo_movil": 11,
+      "fecha_y_hora_agenda": "2023-07-05T14:00:00Z"
+    }
+  ]
+},
+{
+  "_id": 12,
+  "id_adulto_mayor": 12,
+  "id_familiar": 12,
+  "nombre": "Juan",
+  "apellido": "Perez",
+  "fecha_nacimiento": "1940-05-15T00:00:00Z",
+  "genero": "Masculino",
+  "familiares": [
+    {
+      "id_familiar": 12,
+      "nombre": "Carlos",
+      "apellido": "Perez",
+      "direccion": "Calle 123",
+      "telefono": "987654321",
+      "distrito": "Centro",
+      "provincia": "Lima"
+    }
+  ],
+  "vita_care_pulse": [
+    {
+      "id_vita_care_pulse": 12,
+      "numero_serie": "ABC123",
+      "fecha_activacion": "2020-01-01T00:00:00Z",
+      "estado_vita_care_pulse": "Activo",
+      "logs": [
+        {
+          "id_log": 12,
+          "fecha_registro": "2020-01-01T00:00:00Z",
+          "descripcion": "Activación del dispositivo"
+        }
+      ],
+      "integracion_sistema_salud": [
+        {
+          "id_integracion_sistema_salud": 12,
+          "id_profesional_medico": 12,
+          "fecha_integracion": "2020-01-02T00:00:00Z",
+          "estado_integracion_sistema_salud": "Completa"
+        }
+      ],
+      "signos_vitales": [
+        {
+          "id_signo_vital": 12,
+          "tipo_signo_vital": "Presión Arterial",
+          "valor": 120,
+          "fecha_registro": "2020-01-03T00:00:00Z"
+        }
+      ],
+      "conectividad": [
+        {
+          "id_conectividad": 12,
+          "fecha_conexion": "2020-01-04T00:00:00Z",
+          "estado_conectividad": "Conectado"
+        }
+      ],
+      "notificaciones": [
+        {
+          "id_notificacion": 12,
+          "tipo_notificacion": "Alerta",
+          "mensaje": "Alta presión arterial",
+          "fecha_envio": "2020-01-05T00:00:00Z"
+        }
+      ],
+      "configuracion": [
+        {
+          "id_configuracion": 12,
+          "parametro": "Umbral presión",
+          "valor": "140"
+        }
+      ]
+    }
+  ],
+  "historial_salud": [
+    {
+      "id_historial_salud": 12,
+      "fecha_registro": "2020-01-06T00:00:00Z",
+      "descripcion": "Control anual",
+      "prescripciones": [
+        {
+          "id_prescripciones": 12,
+          "fecha_inicio": "2020-01-07T00:00:00Z",
+          "fecha_fin": "2020-12-31T00:00:00Z",
+          "recetas": [
+            {
+              "id_receta": 12,
+              "medicamento": "Aspirina",
+              "dosis": "100mg",
+              "frecuencia": "Diaria",
+              "fecha_inicio": "2020-01-07T00:00:00Z",
+              "fecha_fin": "2020-12-31T00:00:00Z",
+              "notas": "Tomar después del desayuno"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "agenda": [
+    {
+      "id_agenda": 12,
+      "id_receta": 12,
+      "id_dispositivo_movil": 12,
+      "fecha_y_hora_agenda": "2020-01-08T09:00:00Z"
+    }
+  ]
+},
+{
+  "_id": 13,
+  "id_adulto_mayor": 13,
+  "id_familiar": 13,
+  "nombre": "Maria",
+  "apellido": "Lopez",
+  "fecha_nacimiento": "1938-07-20T00:00:00Z",
+  "genero": "Femenino",
+  "familiares": [
+    {
+      "id_familiar": 13,
+      "nombre": "Ana",
+      "apellido": "Lopez",
+      "direccion": "Avenida 456",
+      "telefono": "987654322",
+      "distrito": "Surco",
+      "provincia": "Lima"
+    }
+  ],
+  "vita_care_pulse": [
+    {
+      "id_vita_care_pulse": 13,
+      "numero_serie": "DEF456",
+      "fecha_activacion": "2021-02-01T00:00:00Z",
+      "estado_vita_care_pulse": "Activo",
+      "logs": [
+        {
+          "id_log": 13,
+          "fecha_registro": "2021-02-01T00:00:00Z",
+          "descripcion": "Activación del dispositivo"
+        }
+      ],
+      "integracion_sistema_salud": [
+        {
+          "id_integracion_sistema_salud": 13,
+          "id_profesional_medico": 13,
+          "fecha_integracion": "2021-02-02T00:00:00Z",
+          "estado_integracion_sistema_salud": "Completa"
+        }
+      ],
+      "signos_vitales": [
+        {
+          "id_signo_vital": 13,
+          "tipo_signo_vital": "Presión Arterial",
+          "valor": 115,
+          "fecha_registro": "2021-02-03T00:00:00Z"
+        }
+      ],
+      "conectividad": [
+        {
+          "id_conectividad": 13,
+          "fecha_conexion": "2021-02-04T00:00:00Z",
+          "estado_conectividad": "Conectado"
+        }
+      ],
+      "notificaciones": [
+        {
+          "id_notificacion": 13,
+          "tipo_notificacion": "Alerta",
+          "mensaje": "Baja presión arterial",
+          "fecha_envio": "2021-02-05T00:00:00Z"
+        }
+      ],
+      "configuracion": [
+        {
+          "id_configuracion": 13,
+          "parametro": "Umbral presión",
+          "valor": "110"
+        }
+      ]
+    }
+  ],
+  "historial_salud": [
+    {
+      "id_historial_salud": 13,
+      "fecha_registro": "2021-02-06T00:00:00Z",
+      "descripcion": "Consulta médica",
+      "prescripciones": [
+        {
+          "id_prescripciones": 13,
+          "fecha_inicio": "2021-02-07T00:00:00Z",
+          "fecha_fin": "2021-12-31T00:00:00Z",
+          "recetas": [
+            {
+              "id_receta": 13,
+              "medicamento": "Paracetamol",
+              "dosis": "500mg",
+              "frecuencia": "Cada 8 horas",
+              "fecha_inicio": "2021-02-07T00:00:00Z",
+              "fecha_fin": "2021-12-31T00:00:00Z",
+              "notas": "Tomar con agua"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "agenda": [
+    {
+      "id_agenda": 13,
+      "id_receta": 13,
+      "id_dispositivo_movil": 13,
+      "fecha_y_hora_agenda": "2021-02-08T10:00:00Z"
+    }
+  ]
+},
+{
+  "_id": 14,
+  "id_adulto_mayor": 14,
+  "id_familiar": 14,
+  "nombre": "Jose",
+  "apellido": "Garcia",
+  "fecha_nacimiento": "1937-08-10T00:00:00Z",
+  "genero": "Masculino",
+  "familiares": [
+    {
+      "id_familiar": 14,
+      "nombre": "Luis",
+      "apellido": "Garcia",
+      "direccion": "Calle 789",
+      "telefono": "987654323",
+      "distrito": "Miraflores",
+      "provincia": "Lima"
+    }
+  ],
+  "vita_care_pulse": [
+    {
+      "id_vita_care_pulse": 14,
+      "numero_serie": "GHI789",
+      "fecha_activacion": "2021-03-01T00:00:00Z",
+      "estado_vita_care_pulse": "Activo",
+      "logs": [
+        {
+          "id_log": 14,
+          "fecha_registro": "2021-03-01T00:00:00Z",
+          "descripcion": "Activación del dispositivo"
+        }
+      ],
+      "integracion_sistema_salud": [
+        {
+          "id_integracion_sistema_salud": 14,
+          "id_profesional_medico": 14,
+          "fecha_integracion": "2021-03-02T00:00:00Z",
+          "estado_integracion_sistema_salud": "Completa"
+        }
+      ],
+      "signos_vitales": [
+        {
+          "id_signo_vital": 14,
+          "tipo_signo_vital": "Frecuencia Cardíaca",
+          "valor": 72,
+          "fecha_registro": "2021-03-03T00:00:00Z"
+        }
+      ],
+      "conectividad": [
+        {
+          "id_conectividad": 14,
+          "fecha_conexion": "2021-03-04T00:00:00Z",
+          "estado_conectividad": "Conectado"
+        }
+      ],
+      "notificaciones": [
+        {
+          "id_notificacion": 14,
+          "tipo_notificacion": "Alerta",
+          "mensaje": "Frecuencia cardíaca elevada",
+          "fecha_envio": "2021-03-05T00:00:00Z"
+        }
+      ],
+      "configuracion": [
+        {
+          "id_configuracion": 14,
+          "parametro": "Umbral frecuencia cardíaca",
+          "valor": "100"
+        }
+      ]
+    }
+  ],
+  "historial_salud": [
+    {
+      "id_historial_salud": 14,
+      "fecha_registro": "2021-03-06T00:00:00Z",
+      "descripcion": "Consulta médica",
+      "prescripciones": [
+        {
+          "id_prescripciones": 14,
+          "fecha_inicio": "2021-03-07T00:00:00Z",
+          "fecha_fin": "2021-12-31T00:00:00Z",
+          "recetas": [
+            {
+              "id_receta": 14,
+              "medicamento": "Ibuprofeno",
+              "dosis": "200mg",
+              "frecuencia": "Cada 8 horas",
+              "fecha_inicio": "2021-03-07T00:00:00Z",
+              "fecha_fin": "2021-12-31T00:00:00Z",
+              "notas": "Tomar después de las comidas"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "agenda": [
+    {
+      "id_agenda": 14,
+      "id_receta": 14,
+      "id_dispositivo_movil": 14,
+      "fecha_y_hora_agenda": "2021-03-08T10:00:00Z"
+    }
+  ]
+},
+{
+  "_id": 15,
+  "id_adulto_mayor": 15,
+  "id_familiar": 15,
+  "nombre": "Ana",
+  "apellido": "Fernandez",
+  "fecha_nacimiento": "1939-09-15T00:00:00Z",
+  "genero": "Femenino",
+  "familiares": [
+    {
+      "id_familiar": 15,
+      "nombre": "Carlos",
+      "apellido": "Fernandez",
+      "direccion": "Avenida 123",
+      "telefono": "987654324",
+      "distrito": "San Isidro",
+      "provincia": "Lima"
+    }
+  ],
+  "vita_care_pulse": [
+    {
+      "id_vita_care_pulse": 15,
+      "numero_serie": "JKL012",
+      "fecha_activacion": "2021-04-01T00:00:00Z",
+      "estado_vita_care_pulse": "Activo",
+      "logs": [
+        {
+          "id_log": 15,
+          "fecha_registro": "2021-04-01T00:00:00Z",
+          "descripcion": "Activación del dispositivo"
+        }
+      ],
+      "integracion_sistema_salud": [
+        {
+          "id_integracion_sistema_salud": 15,
+          "id_profesional_medico": 15,
+          "fecha_integracion": "2021-04-02T00:00:00Z",
+          "estado_integracion_sistema_salud": "Completa"
+        }
+      ],
+      "signos_vitales": [
+        {
+          "id_signo_vital": 15,
+          "tipo_signo_vital": "Presión Arterial",
+          "valor": 120,
+          "fecha_registro": "2021-04-03T00:00:00Z"
+        }
+      ],
+      "conectividad": [
+        {
+          "id_conectividad": 15,
+          "fecha_conexion": "2021-04-04T00:00:00Z",
+          "estado_conectividad": "Conectado"
+        }
+      ],
+      "notificaciones": [
+        {
+          "id_notificacion": 15,
+          "tipo_notificacion": "Alerta",
+          "mensaje": "Presión arterial elevada",
+          "fecha_envio": "2021-04-05T00:00:00Z"
+        }
+      ],
+      "configuracion": [
+        {
+          "id_configuracion": 15,
+          "parametro": "Umbral presión",
+          "valor": "130"
+        }
+      ]
+    }
+  ],
+  "historial_salud": [
+    {
+      "id_historial_salud": 15,
+      "fecha_registro": "2021-04-06T00:00:00Z",
+      "descripcion": "Consulta médica",
+      "prescripciones": [
+        {
+          "id_prescripciones": 15,
+          "fecha_inicio": "2021-04-07T00:00:00Z",
+          "fecha_fin": "2021-12-31T00:00:00Z",
+          "recetas": [
+            {
+              "id_receta": 15,
+              "medicamento": "Losartan",
+              "dosis": "50mg",
+              "frecuencia": "Cada 12 horas",
+              "fecha_inicio": "2021-04-07T00:00:00Z",
+              "fecha_fin": "2021-12-31T00:00:00Z",
+              "notas": "Tomar con el desayuno y la cena"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "agenda": [
+    {
+      "id_agenda": 15,
+      "id_receta": 15,
+      "id_dispositivo_movil": 15,
+      "fecha_y_hora_agenda": "2021-04-08T10:00:00Z"
+    }
+  ]
+},
+{
+  "_id": 16,
+  "id_adulto_mayor": 16,
+  "id_familiar": 16,
+  "nombre": "Carlos",
+  "apellido": "Martinez",
+  "fecha_nacimiento": "1940-05-20T00:00:00Z",
+  "genero": "Masculino",
+  "familiares": [
+    {
+      "id_familiar": 16,
+      "nombre": "Maria",
+      "apellido": "Martinez",
+      "direccion": "Calle 456",
+      "telefono": "987654325",
+      "distrito": "Barranco",
+      "provincia": "Lima"
+    }
+  ],
+  "vita_care_pulse": [
+    {
+      "id_vita_care_pulse": 16,
+      "numero_serie": "MNO345",
+      "fecha_activacion": "2021-05-01T00:00:00Z",
+      "estado_vita_care_pulse": "Activo",
+      "logs": [
+        {
+          "id_log": 16,
+          "fecha_registro": "2021-05-01T00:00:00Z",
+          "descripcion": "Activación del dispositivo"
+        }
+      ],
+      "integracion_sistema_salud": [
+        {
+          "id_integracion_sistema_salud": 16,
+          "id_profesional_medico": 16,
+          "fecha_integracion": "2021-05-02T00:00:00Z",
+          "estado_integracion_sistema_salud": "Completa"
+        }
+      ],
+      "signos_vitales": [
+        {
+          "id_signo_vital": 16,
+          "tipo_signo_vital": "Frecuencia Respiratoria",
+          "valor": 18,
+          "fecha_registro": "2021-05-03T00:00:00Z"
+        }
+      ],
+      "conectividad": [
+        {
+          "id_conectividad": 16,
+          "fecha_conexion": "2021-05-04T00:00:00Z",
+          "estado_conectividad": "Conectado"
+        }
+      ],
+      "notificaciones": [
+        {
+          "id_notificacion": 16,
+          "tipo_notificacion": "Alerta",
+          "mensaje": "Frecuencia respiratoria elevada",
+          "fecha_envio": "2021-05-05T00:00:00Z"
+        }
+      ],
+      "configuracion": [
+        {
+          "id_configuracion": 16,
+          "parametro": "Umbral frecuencia respiratoria",
+          "valor": "20"
+        }
+      ]
+    }
+  ],
+  "historial_salud": [
+    {
+      "id_historial_salud": 16,
+      "fecha_registro": "2021-05-06T00:00:00Z",
+      "descripcion": "Consulta médica",
+      "prescripciones": [
+        {
+          "id_prescripciones": 16,
+          "fecha_inicio": "2021-05-07T00:00:00Z",
+          "fecha_fin": "2021-12-31T00:00:00Z",
+          "recetas": [
+            {
+              "id_receta": 16,
+              "medicamento": "Salbutamol",
+              "dosis": "100mcg",
+              "frecuencia": "Cada 6 horas",
+              "fecha_inicio": "2021-05-07T00:00:00Z",
+              "fecha_fin": "2021-12-31T00:00:00Z",
+              "notas": "Inhalar profundamente"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "agenda": [
+    {
+      "id_agenda": 16,
+      "id_receta": 16,
+      "id_dispositivo_movil": 16,
+      "fecha_y_hora_agenda": "2021-05-08T10:00:00Z"
+    }
+  ]
+},
+{
+  "_id": 17,
+  "id_adulto_mayor": 17,
+  "id_familiar": 17,
+  "nombre": "Laura",
+  "apellido": "Gomez",
+  "fecha_nacimiento": "1941-03-12T00:00:00Z",
+  "genero": "Femenino",
+  "familiares": [
+    {
+      "id_familiar": 17,
+      "nombre": "Pedro",
+      "apellido": "Gomez",
+      "direccion": "Avenida 789",
+      "telefono": "987654326",
+      "distrito": "San Borja",
+      "provincia": "Lima"
+    }
+  ],
+  "vita_care_pulse": [
+    {
+      "id_vita_care_pulse": 17,
+      "numero_serie": "PQR678",
+      "fecha_activacion": "2021-06-01T00:00:00Z",
+      "estado_vita_care_pulse": "Activo",
+      "logs": [
+        {
+          "id_log": 17,
+          "fecha_registro": "2021-06-01T00:00:00Z",
+          "descripcion": "Activación del dispositivo"
+        }
+      ],
+      "integracion_sistema_salud": [
+        {
+          "id_integracion_sistema_salud": 17,
+          "id_profesional_medico": 17,
+          "fecha_integracion": "2021-06-02T00:00:00Z",
+          "estado_integracion_sistema_salud": "Completa"
+        }
+      ],
+      "signos_vitales": [
+        {
+          "id_signo_vital": 17,
+          "tipo_signo_vital": "Presión Arterial",
+          "valor": 130,
+          "fecha_registro": "2021-06-03T00:00:00Z"
+        }
+      ],
+      "conectividad": [
+        {
+          "id_conectividad": 17,
+          "fecha_conexion": "2021-06-04T00:00:00Z",
+          "estado_conectividad": "Conectado"
+        }
+      ],
+      "notificaciones": [
+        {
+          "id_notificacion": 17,
+          "tipo_notificacion": "Alerta",
+          "mensaje": "Presión arterial elevada",
+          "fecha_envio": "2021-06-05T00:00:00Z"
+        }
+      ],
+      "configuracion": [
+        {
+          "id_configuracion": 17,
+          "parametro": "Umbral presión",
+          "valor": "140"
+        }
+      ]
+    }
+  ],
+  "historial_salud": [
+    {
+      "id_historial_salud": 17,
+      "fecha_registro": "2021-06-06T00:00:00Z",
+      "descripcion": "Consulta médica",
+      "prescripciones": [
+        {
+          "id_prescripciones": 17,
+          "fecha_inicio": "2021-06-07T00:00:00Z",
+          "fecha_fin": "2021-12-31T00:00:00Z",
+          "recetas": [
+            {
+              "id_receta": 17,
+              "medicamento": "Amlodipino",
+              "dosis": "5mg",
+              "frecuencia": "Cada 24 horas",
+              "fecha_inicio": "2021-06-07T00:00:00Z",
+              "fecha_fin": "2021-12-31T00:00:00Z",
+              "notas": "Tomar con el desayuno"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "agenda": [
+    {
+      "id_agenda": 17,
+      "id_receta": 17,
+      "id_dispositivo_movil": 17,
+      "fecha_y_hora_agenda": "2021-06-08T10:00:00Z"
+    }
+  ]
+},
+{
+  "_id": 18,
+  "id_adulto_mayor": 18,
+  "id_familiar": 18,
+  "nombre": "Luis",
+  "apellido": "Perez",
+  "fecha_nacimiento": "1942-10-25T00:00:00Z",
+  "genero": "Masculino",
+  "familiares": [
+    {
+      "id_familiar": 18,
+      "nombre": "Laura",
+      "apellido": "Perez",
+      "direccion": "Calle 123",
+      "telefono": "987654327",
+      "distrito": "La Molina",
+      "provincia": "Lima"
+    }
+  ],
+  "vita_care_pulse": [
+    {
+      "id_vita_care_pulse": 18,
+      "numero_serie": "STU901",
+      "fecha_activacion": "2021-07-01T00:00:00Z",
+      "estado_vita_care_pulse": "Activo",
+      "logs": [
+        {
+          "id_log": 18,
+          "fecha_registro": "2021-07-01T00:00:00Z",
+          "descripcion": "Activación del dispositivo"
+        }
+      ],
+      "integracion_sistema_salud": [
+        {
+          "id_integracion_sistema_salud": 18,
+          "id_profesional_medico": 18,
+          "fecha_integracion": "2021-07-02T00:00:00Z",
+          "estado_integracion_sistema_salud": "Completa"
+        }
+      ],
+      "signos_vitales": [
+        {
+          "id_signo_vital": 18,
+          "tipo_signo_vital": "Presión Arterial",
+          "valor": 110,
+          "fecha_registro": "2021-07-03T00:00:00Z"
+        }
+      ],
+      "conectividad": [
+        {
+          "id_conectividad": 18,
+          "fecha_conexion": "2021-07-04T00:00:00Z",
+          "estado_conectividad": "Conectado"
+        }
+      ],
+      "notificaciones": [
+        {
+          "id_notificacion": 18,
+          "tipo_notificacion": "Alerta",
+          "mensaje": "Baja presión arterial",
+          "fecha_envio": "2021-07-05T00:00:00Z"
+        }
+      ],
+      "configuracion": [
+        {
+          "id_configuracion": 18,
+          "parametro": "Umbral presión",
+          "valor": "100"
+        }
+      ]
+    }
+  ],
+  "historial_salud": [
+    {
+      "id_historial_salud": 18,
+      "fecha_registro": "2021-07-06T00:00:00Z",
+      "descripcion": "Consulta médica",
+      "prescripciones": [
+        {
+          "id_prescripciones": 18,
+          "fecha_inicio": "2021-07-07T00:00:00Z",
+          "fecha_fin": "2021-12-31T00:00:00Z",
+          "recetas": [
+            {
+              "id_receta": 18,
+              "medicamento": "Enalapril",
+              "dosis": "10mg",
+              "frecuencia": "Cada 24 horas",
+              "fecha_inicio": "2021-07-07T00:00:00Z",
+              "fecha_fin": "2021-12-31T00:00:00Z",
+              "notas": "Tomar con el desayuno"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "agenda": [
+    {
+      "id_agenda": 18,
+      "id_receta": 18,
+      "id_dispositivo_movil": 18,
+      "fecha_y_hora_agenda": "2021-07-08T10:00:00Z"
+    }
+  ]
+},
+{
+  "_id": 19,
+  "id_adulto_mayor": 19,
+  "id_familiar": 19,
+  "nombre": "Carmen",
+  "apellido": "Ramirez",
+  "fecha_nacimiento": "1943-12-05T00:00:00Z",
+  "genero": "Femenino",
+  "familiares": [
+    {
+      "id_familiar": 19,
+      "nombre": "Jose",
+      "apellido": "Ramirez",
+      "direccion": "Avenida 456",
+      "telefono": "987654328",
+      "distrito": "San Miguel",
+      "provincia": "Lima"
+    }
+  ],
+  "vita_care_pulse": [
+    {
+      "id_vita_care_pulse": 19,
+      "numero_serie": "VWX234",
+      "fecha_activacion": "2021-08-01T00:00:00Z",
+      "estado_vita_care_pulse": "Activo",
+      "logs": [
+        {
+          "id_log": 19,
+          "fecha_registro": "2021-08-01T00:00:00Z",
+          "descripcion": "Activación del dispositivo"
+        }
+      ],
+      "integracion_sistema_salud": [
+        {
+          "id_integracion_sistema_salud": 19,
+          "id_profesional_medico": 19,
+          "fecha_integracion": "2021-08-02T00:00:00Z",
+          "estado_integracion_sistema_salud": "Completa"
+        }
+      ],
+      "signos_vitales": [
+        {
+          "id_signo_vital": 19,
+          "tipo_signo_vital": "Frecuencia Cardíaca",
+          "valor": 70,
+          "fecha_registro": "2021-08-03T00:00:00Z"
+        }
+      ],
+      "conectividad": [
+        {
+          "id_conectividad": 19,
+          "fecha_conexion": "2021-08-04T00:00:00Z",
+          "estado_conectividad": "Conectado"
+        }
+      ],
+      "notificaciones": [
+        {
+          "id_notificacion": 19,
+          "tipo_notificacion": "Alerta",
+          "mensaje": "Frecuencia cardíaca baja",
+          "fecha_envio": "2021-08-05T00:00:00Z"
+        }
+      ],
+      "configuracion": [
+        {
+          "id_configuracion": 19,
+          "parametro": "Umbral frecuencia cardíaca",
+          "valor": "60"
+        }
+      ]
+    }
+  ],
+  "historial_salud": [
+    {
+      "id_historial_salud": 19,
+      "fecha_registro": "2021-08-06T00:00:00Z",
+      "descripcion": "Consulta médica",
+      "prescripciones": [
+        {
+          "id_prescripciones": 19,
+          "fecha_inicio": "2021-08-07T00:00:00Z",
+          "fecha_fin": "2021-12-31T00:00:00Z",
+          "recetas": [
+            {
+              "id_receta": 19,
+              "medicamento": "Atenolol",
+              "dosis": "25mg",
+              "frecuencia": "Cada 24 horas",
+              "fecha_inicio": "2021-08-07T00:00:00Z",
+              "fecha_fin": "2021-12-31T00:00:00Z",
+              "notas": "Tomar en la mañana"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "agenda": [
+    {
+      "id_agenda": 19,
+      "id_receta": 19,
+      "id_dispositivo_movil": 19,
+      "fecha_y_hora_agenda": "2021-08-08T10:00:00Z"
+    }
+  ]
+},
+{
+  "_id": 20,
+  "id_adulto_mayor": 20,
+  "id_familiar": 20,
+  "nombre": "Pedro",
+  "apellido": "Rojas",
+  "fecha_nacimiento": "1944-01-15T00:00:00Z",
+  "genero": "Masculino",
+  "familiares": [
+    {
+      "id_familiar": 20,
+      "nombre": "Clara",
+      "apellido": "Rojas",
+      "direccion": "Calle 789",
+      "telefono": "987654329",
+      "distrito": "San Juan",
+      "provincia": "Lima"
+    }
+  ],
+  "vita_care_pulse": [
+    {
+      "id_vita_care_pulse": 20,
+      "numero_serie": "YZA567",
+      "fecha_activacion": "2021-09-01T00:00:00Z",
+      "estado_vita_care_pulse": "Activo",
+      "logs": [
+        {
+          "id_log": 20,
+          "fecha_registro": "2021-09-01T00:00:00Z",
+          "descripcion": "Activación del dispositivo"
+        }
+      ],
+      "integracion_sistema_salud": [
+        {
+          "id_integracion_sistema_salud": 20,
+          "id_profesional_medico": 20,
+          "fecha_integracion": "2021-09-02T00:00:00Z",
+          "estado_integracion_sistema_salud": "Completa"
+        }
+      ],
+      "signos_vitales": [
+        {
+          "id_signo_vital": 20,
+          "tipo_signo_vital": "Frecuencia Respiratoria",
+          "valor": 16,
+          "fecha_registro": "2021-09-03T00:00:00Z"
+        }
+      ],
+      "conectividad": [
+        {
+          "id_conectividad": 20,
+          "fecha_conexion": "2021-09-04T00:00:00Z",
+          "estado_conectividad": "Conectado"
+        }
+      ],
+      "notificaciones": [
+        {
+          "id_notificacion": 20,
+          "tipo_notificacion": "Alerta",
+          "mensaje": "Frecuencia respiratoria baja",
+          "fecha_envio": "2021-09-05T00:00:00Z"
+        }
+      ],
+      "configuracion": [
+        {
+          "id_configuracion": 20,
+          "parametro": "Umbral frecuencia respiratoria",
+          "valor": "14"
+        }
+      ]
+    }
+  ],
+  "historial_salud": [
+    {
+      "id_historial_salud": 20,
+      "fecha_registro": "2021-09-06T00:00:00Z",
+      "descripcion": "Consulta médica",
+      "prescripciones": [
+        {
+          "id_prescripciones": 20,
+          "fecha_inicio": "2021-09-07T00:00:00Z",
+          "fecha_fin": "2021-12-31T00:00:00Z",
+          "recetas": [
+            {
+              "id_receta": 20,
+              "medicamento": "Salbutamol",
+              "dosis": "100mcg",
+              "frecuencia": "Cada 6 horas",
+              "fecha_inicio": "2021-09-07T00:00:00Z",
+              "fecha_fin": "2021-12-31T00:00:00Z",
+              "notas": "Inhalar profundamente"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "agenda": [
+    {
+      "id_agenda": 20,
+      "id_receta": 20,
+      "id_dispositivo_movil": 20,
+      "fecha_y_hora_agenda": "2021-09-08T10:00:00Z"
+    }
+  ]
+},
+{
+  "_id": 21,
+  "id_adulto_mayor": 21,
+  "id_familiar": 21,
+  "nombre": "Marta",
+  "apellido": "Sanchez",
+  "fecha_nacimiento": "1945-11-20T00:00:00Z",
+  "genero": "Femenino",
+  "familiares": [
+    {
+      "id_familiar": 21,
+      "nombre": "Carlos",
+      "apellido": "Sanchez",
+      "direccion": "Calle 789",
+      "telefono": "987654330",
+      "distrito": "San Juan",
+      "provincia": "Lima"
+    }
+  ],
+  "vita_care_pulse": [
+    {
+      "id_vita_care_pulse": 21,
+      "numero_serie": "BCD890",
+      "fecha_activacion": "2021-10-01T00:00:00Z",
+      "estado_vita_care_pulse": "Activo",
+      "logs": [
+        {
+          "id_log": 21,
+          "fecha_registro": "2021-10-01T00:00:00Z",
+          "descripcion": "Activación del dispositivo"
+        }
+      ],
+      "integracion_sistema_salud": [
+        {
+          "id_integracion_sistema_salud": 21,
+          "id_profesional_medico": 21,
+          "fecha_integracion": "2021-10-02T00:00:00Z",
+          "estado_integracion_sistema_salud": "Completa"
+        }
+      ],
+      "signos_vitales": [
+        {
+          "id_signo_vital": 21,
+          "tipo_signo_vital": "Frecuencia Cardíaca",
+          "valor": 85,
+          "fecha_registro": "2021-10-03T00:00:00Z"
+        }
+      ],
+      "conectividad": [
+        {
+          "id_conectividad": 21,
+          "fecha_conexion": "2021-10-04T00:00:00Z",
+          "estado_conectividad": "Conectado"
+        }
+      ],
+      "notificaciones": [
+        {
+          "id_notificacion": 21,
+          "tipo_notificacion": "Alerta",
+          "mensaje": "Frecuencia cardíaca alta",
+          "fecha_envio": "2021-10-05T00:00:00Z"
+        }
+      ],
+      "configuracion": [
+        {
+          "id_configuracion": 21,
+          "parametro": "Umbral frecuencia cardíaca",
+          "valor": "90"
+        }
+      ]
+    }
+  ],
+  "historial_salud": [
+    {
+      "id_historial_salud": 21,
+      "fecha_registro": "2021-10-06T00:00:00Z",
+      "descripcion": "Consulta médica",
+      "prescripciones": [
+        {
+          "id_prescripciones": 21,
+          "fecha_inicio": "2021-10-07T00:00:00Z",
+          "fecha_fin": "2021-12-31T00:00:00Z",
+          "recetas": [
+            {
+              "id_receta": 21,
+              "medicamento": "Metoprolol",
+              "dosis": "50mg",
+              "frecuencia": "Cada 12 horas",
+              "fecha_inicio": "2021-10-07T00:00:00Z",
+              "fecha_fin": "2021-12-31T00:00:00Z",
+              "notas": "Tomar después de las comidas"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "agenda": [
+    {
+      "id_agenda": 21,
+      "id_receta": 21,
+      "id_dispositivo_movil": 21,
+      "fecha_y_hora_agenda": "2021-10-08T10:00:00Z"
+    }
+  ]
+},
+{
+  "_id": 22,
+  "id_adulto_mayor": 22,
+  "id_familiar": 22,
+  "nombre": "Roberto",
+  "apellido": "Garcia",
+  "fecha_nacimiento": "1946-07-30T00:00:00Z",
+  "genero": "Masculino",
+  "familiares": [
+    {
+      "id_familiar": 22,
+      "nombre": "Angela",
+      "apellido": "Garcia",
+      "direccion": "Avenida 123",
+      "telefono": "987654331",
+      "distrito": "San Miguel",
+      "provincia": "Lima"
+    }
+  ],
+  "vita_care_pulse": [
+    {
+      "id_vita_care_pulse": 22,
+      "numero_serie": "EFG234",
+      "fecha_activacion": "2021-11-01T00:00:00Z",
+      "estado_vita_care_pulse": "Activo",
+      "logs": [
+        {
+          "id_log": 22,
+          "fecha_registro": "2021-11-01T00:00:00Z",
+          "descripcion": "Activación del dispositivo"
+        }
+      ],
+      "integracion_sistema_salud": [
+        {
+          "id_integracion_sistema_salud": 22,
+          "id_profesional_medico": 22,
+          "fecha_integracion": "2021-11-02T00:00:00Z",
+          "estado_integracion_sistema_salud": "Completa"
+        }
+      ],
+      "signos_vitales": [
+        {
+          "id_signo_vital": 22,
+          "tipo_signo_vital": "Frecuencia Respiratoria",
+          "valor": 20,
+          "fecha_registro": "2021-11-03T00:00:00Z"
+        }
+      ],
+      "conectividad": [
+        {
+          "id_conectividad": 22,
+          "fecha_conexion": "2021-11-04T00:00:00Z",
+          "estado_conectividad": "Conectado"
+        }
+      ],
+      "notificaciones": [
+        {
+          "id_notificacion": 22,
+          "tipo_notificacion": "Alerta",
+          "mensaje": "Frecuencia respiratoria alta",
+          "fecha_envio": "2021-11-05T00:00:00Z"
+        }
+      ],
+      "configuracion": [
+        {
+          "id_configuracion": 22,
+          "parametro": "Umbral frecuencia respiratoria",
+          "valor": "18"
+        }
+      ]
+    }
+  ],
+  "historial_salud": [
+    {
+      "id_historial_salud": 22,
+      "fecha_registro": "2021-11-06T00:00:00Z",
+      "descripcion": "Consulta médica",
+      "prescripciones": [
+        {
+          "id_prescripciones": 22,
+          "fecha_inicio": "2021-11-07T00:00:00Z",
+          "fecha_fin": "2021-12-31T00:00:00Z",
+          "recetas": [
+            {
+              "id_receta": 22,
+              "medicamento": "Budesonida",
+              "dosis": "200mcg",
+              "frecuencia": "Cada 12 horas",
+              "fecha_inicio": "2021-11-07T00:00:00Z",
+              "fecha_fin": "2021-12-31T00:00:00Z",
+              "notas": "Inhalar profundamente"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "agenda": [
+    {
+      "id_agenda": 22,
+      "id_receta": 22,
+      "id_dispositivo_movil": 22,
+      "fecha_y_hora_agenda": "2021-11-08T10:00:00Z"
+    }
+  ]
+},
+{
+  "_id": 23,
+  "id_adulto_mayor": 23,
+  "id_familiar": 23,
+  "nombre": "Luisa",
+  "apellido": "Martinez",
+  "fecha_nacimiento": "1947-05-18T00:00:00Z",
+  "genero": "Femenino",
+  "familiares": [
+    {
+      "id_familiar": 23,
+      "nombre": "Juan",
+      "apellido": "Martinez",
+      "direccion": "Calle 123",
+      "telefono": "987654332",
+      "distrito": "Miraflores",
+      "provincia": "Lima"
+    }
+  ],
+  "vita_care_pulse": [
+    {
+      "id_vita_care_pulse": 23,
+      "numero_serie": "HIJ567",
+      "fecha_activacion": "2021-12-01T00:00:00Z",
+      "estado_vita_care_pulse": "Activo",
+      "logs": [
+        {
+          "id_log": 23,
+          "fecha_registro": "2021-12-01T00:00:00Z",
+          "descripcion": "Activación del dispositivo"
+        }
+      ],
+      "integracion_sistema_salud": [
+        {
+          "id_integracion_sistema_salud": 23,
+          "id_profesional_medico": 23,
+          "fecha_integracion": "2021-12-02T00:00:00Z",
+          "estado_integracion_sistema_salud": "Completa"
+        }
+      ],
+      "signos_vitales": [
+        {
+          "id_signo_vital": 23,
+          "tipo_signo_vital": "Presión Arterial",
+          "valor": 120,
+          "fecha_registro": "2021-12-03T00:00:00Z"
+        }
+      ],
+      "conectividad": [
+        {
+          "id_conectividad": 23,
+          "fecha_conexion": "2021-12-04T00:00:00Z",
+          "estado_conectividad": "Conectado"
+        }
+      ],
+      "notificaciones": [
+        {
+          "id_notificacion": 23,
+          "tipo_notificacion": "Alerta",
+          "mensaje": "Presión arterial alta",
+          "fecha_envio": "2021-12-05T00:00:00Z"
+        }
+      ],
+      "configuracion": [
+        {
+          "id_configuracion": 23,
+          "parametro": "Umbral presión arterial",
+          "valor": "130"
+        }
+      ]
+    }
+  ],
+  "historial_salud": [
+    {
+      "id_historial_salud": 23,
+      "fecha_registro": "2021-12-06T00:00:00Z",
+      "descripcion": "Consulta médica",
+      "prescripciones": [
+        {
+          "id_prescripciones": 23,
+          "fecha_inicio": "2021-12-07T00:00:00Z",
+          "fecha_fin": "2021-12-31T00:00:00Z",
+          "recetas": [
+            {
+              "id_receta": 23,
+              "medicamento": "Lisinopril",
+              "dosis": "10mg",
+              "frecuencia": "Cada 24 horas",
+              "fecha_inicio": "2021-12-07T00:00:00Z",
+              "fecha_fin": "2021-12-31T00:00:00Z",
+              "notas": "Tomar por la mañana"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "agenda": [
+    {
+      "id_agenda": 23,
+      "id_receta": 23,
+      "id_dispositivo_movil": 23,
+      "fecha_y_hora_agenda": "2021-12-08T10:00:00Z"
+    }
+  ]
+},
+{
+  "_id": 24,
+  "id_adulto_mayor": 24,
+  "id_familiar": 24,
+  "nombre": "Eduardo",
+  "apellido": "Mendez",
+  "fecha_nacimiento": "1948-03-21T00:00:00Z",
+  "genero": "Masculino",
+  "familiares": [
+    {
+      "id_familiar": 24,
+      "nombre": "Laura",
+      "apellido": "Mendez",
+      "direccion": "Avenida 456",
+      "telefono": "987654333",
+      "distrito": "San Borja",
+      "provincia": "Lima"
+    }
+  ],
+  "vita_care_pulse": [
+    {
+      "id_vita_care_pulse": 24,
+      "numero_serie": "KLM890",
+      "fecha_activacion": "2022-01-01T00:00:00Z",
+      "estado_vita_care_pulse": "Activo",
+      "logs": [
+        {
+          "id_log": 24,
+          "fecha_registro": "2022-01-01T00:00:00Z",
+          "descripcion": "Activación del dispositivo"
+        }
+      ],
+      "integracion_sistema_salud": [
+        {
+          "id_integracion_sistema_salud": 24,
+          "id_profesional_medico": 24,
+          "fecha_integracion": "2022-01-02T00:00:00Z",
+          "estado_integracion_sistema_salud": "Completa"
+        }
+      ],
+      "signos_vitales": [
+        {
+          "id_signo_vital": 24,
+          "tipo_signo_vital": "Frecuencia Respiratoria",
+          "valor": 18,
+          "fecha_registro": "2022-01-03T00:00:00Z"
+        }
+      ],
+      "conectividad": [
+        {
+          "id_conectividad": 24,
+          "fecha_conexion": "2022-01-04T00:00:00Z",
+          "estado_conectividad": "Conectado"
+        }
+      ],
+      "notificaciones": [
+        {
+          "id_notificacion": 24,
+          "tipo_notificacion": "Alerta",
+          "mensaje": "Frecuencia respiratoria alta",
+          "fecha_envio": "2022-01-05T00:00:00Z"
+        }
+      ],
+      "configuracion": [
+        {
+          "id_configuracion": 24,
+          "parametro": "Umbral frecuencia respiratoria",
+          "valor": "20"
+        }
+      ]
+    }
+  ],
+  "historial_salud": [
+    {
+      "id_historial_salud": 24,
+      "fecha_registro": "2022-01-06T00:00:00Z",
+      "descripcion": "Consulta médica",
+      "prescripciones": [
+        {
+          "id_prescripciones": 24,
+          "fecha_inicio": "2022-01-07T00:00:00Z",
+          "fecha_fin": "2022-12-31T00:00:00Z",
+          "recetas": [
+            {
+              "id_receta": 24,
+              "medicamento": "Formoterol",
+              "dosis": "12mcg",
+              "frecuencia": "Cada 12 horas",
+              "fecha_inicio": "2022-01-07T00:00:00Z",
+              "fecha_fin": "2022-12-31T00:00:00Z",
+              "notas": "Inhalar profundamente"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "agenda": [
+    {
+      "id_agenda": 24,
+      "id_receta": 24,
+      "id_dispositivo_movil": 24,
+      "fecha_y_hora_agenda": "2022-01-08T10:00:00Z"
+    }
+  ]
+},
+{
+  "_id": 25,
+  "id_adulto_mayor": 25,
+  "id_familiar": 25,
+  "nombre": "Rosa",
+  "apellido": "Torres",
+  "fecha_nacimiento": "1949-08-30T00:00:00Z",
+  "genero": "Femenino",
+  "familiares": [
+    {
+      "id_familiar": 25,
+      "nombre": "Luis",
+      "apellido": "Torres",
+      "direccion": "Calle 789",
+      "telefono": "987654334",
+      "distrito": "San Isidro",
+      "provincia": "Lima"
+    }
+  ],
+  "vita_care_pulse": [
+    {
+      "id_vita_care_pulse": 25,
+      "numero_serie": "NOP123",
+      "fecha_activacion": "2022-02-01T00:00:00Z",
+      "estado_vita_care_pulse": "Activo",
+      "logs": [
+        {
+          "id_log": 25,
+          "fecha_registro": "2022-02-01T00:00:00Z",
+          "descripcion": "Activación del dispositivo"
+        }
+      ],
+      "integracion_sistema_salud": [
+        {
+          "id_integracion_sistema_salud": 25,
+          "id_profesional_medico": 25,
+          "fecha_integracion": "2022-02-02T00:00:00Z",
+          "estado_integracion_sistema_salud": "Completa"
+        }
+      ],
+      "signos_vitales": [
+        {
+          "id_signo_vital": 25,
+          "tipo_signo_vital": "Presión Arterial",
+          "valor": 125,
+          "fecha_registro": "2022-02-03T00:00:00Z"
+        }
+      ],
+      "conectividad": [
+        {
+          "id_conectividad": 25,
+          "fecha_conexion": "2022-02-04T00:00:00Z",
+          "estado_conectividad": "Conectado"
+        }
+      ],
+      "notificaciones": [
+        {
+          "id_notificacion": 25,
+          "tipo_notificacion": "Alerta",
+          "mensaje": "Presión arterial alta",
+          "fecha_envio": "2022-02-05T00:00:00Z"
+        }
+      ],
+      "configuracion": [
+        {
+          "id_configuracion": 25,
+          "parametro": "Umbral presión arterial",
+          "valor": "135"
+        }
+      ]
+    }
+  ],
+  "historial_salud": [
+    {
+      "id_historial_salud": 25,
+      "fecha_registro": "2022-02-06T00:00:00Z",
+      "descripcion": "Consulta médica",
+      "prescripciones": [
+        {
+          "id_prescripciones": 25,
+          "fecha_inicio": "2022-02-07T00:00:00Z",
+          "fecha_fin": "2022-12-31T00:00:00Z",
+          "recetas": [
+            {
+              "id_receta": 25,
+              "medicamento": "Losartan",
+              "dosis": "50mg",
+              "frecuencia": "Cada 24 horas",
+              "fecha_inicio": "2022-02-07T00:00:00Z",
+              "fecha_fin": "2022-12-31T00:00:00Z",
+              "notas": "Tomar por la mañana"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "agenda": [
+    {
+      "id_agenda": 25,
+      "id_receta": 25,
+      "id_dispositivo_movil": 25,
+      "fecha_y_hora_agenda": "2022-02-08T10:00:00Z"
+    }
+  ]
+},
+{
+  "_id": 26,
+  "id_adulto_mayor": 26,
+  "id_familiar": 26,
+  "nombre": "Ricardo",
+  "apellido": "Flores",
+  "fecha_nacimiento": "1950-04-25T00:00:00Z",
+  "genero": "Masculino",
+  "familiares": [
+    {
+      "id_familiar": 26,
+      "nombre": "Carmen",
+      "apellido": "Flores",
+      "direccion": "Avenida 123",
+      "telefono": "987654335",
+      "distrito": "Barranco",
+      "provincia": "Lima"
+    }
+  ],
+  "vita_care_pulse": [
+    {
+      "id_vita_care_pulse": 26,
+      "numero_serie": "QRS456",
+      "fecha_activacion": "2022-03-01T00:00:00Z",
+      "estado_vita_care_pulse": "Activo",
+      "logs": [
+        {
+          "id_log": 26,
+          "fecha_registro": "2022-03-01T00:00:00Z",
+          "descripcion": "Activación del dispositivo"
+        }
+      ],
+      "integracion_sistema_salud": [
+        {
+          "id_integracion_sistema_salud": 26,
+          "id_profesional_medico": 26,
+          "fecha_integracion": "2022-03-02T00:00:00Z",
+          "estado_integracion_sistema_salud": "Completa"
+        }
+      ],
+      "signos_vitales": [
+        {
+          "id_signo_vital": 26,
+          "tipo_signo_vital": "Frecuencia Cardíaca",
+          "valor": 75,
+          "fecha_registro": "2022-03-03T00:00:00Z"
+        }
+      ],
+      "conectividad": [
+        {
+          "id_conectividad": 26,
+          "fecha_conexion": "2022-03-04T00:00:00Z",
+          "estado_conectividad": "Conectado"
+        }
+      ],
+      "notificaciones": [
+        {
+          "id_notificacion": 26,
+          "tipo_notificacion": "Alerta",
+          "mensaje": "Frecuencia cardíaca alta",
+          "fecha_envio": "2022-03-05T00:00:00Z"
+        }
+      ],
+      "configuracion": [
+        {
+          "id_configuracion": 26,
+          "parametro": "Umbral frecuencia cardíaca",
+          "valor": "80"
+        }
+      ]
+    }
+  ],
+  "historial_salud": [
+    {
+      "id_historial_salud": 26,
+      "fecha_registro": "2022-03-06T00:00:00Z",
+      "descripcion": "Consulta médica",
+      "prescripciones": [
+        {
+          "id_prescripciones": 26,
+          "fecha_inicio": "2022-03-07T00:00:00Z",
+          "fecha_fin": "2022-12-31T00:00:00Z",
+          "recetas": [
+            {
+              "id_receta": 26,
+              "medicamento": "Atenolol",
+              "dosis": "50mg",
+              "frecuencia": "Cada 24 horas",
+              "fecha_inicio": "2022-03-07T00:00:00Z",
+              "fecha_fin": "2022-12-31T00:00:00Z",
+              "notas": "Tomar por la mañana"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "agenda": [
+    {
+      "id_agenda": 26,
+      "id_receta": 26,
+      "id_dispositivo_movil": 26,
+      "fecha_y_hora_agenda": "2022-03-08T10:00:00Z"
+    }
+  ]
+},
+{
+  "_id": 27,
+  "id_adulto_mayor": 27,
+  "id_familiar": 27,
+  "nombre": "Julia",
+  "apellido": "Gutierrez",
+  "fecha_nacimiento": "1951-07-14T00:00:00Z",
+  "genero": "Femenino",
+  "familiares": [
+    {
+      "id_familiar": 27,
+      "nombre": "Pedro",
+      "apellido": "Gutierrez",
+      "direccion": "Calle 456",
+      "telefono": "987654336",
+      "distrito": "Chorrillos",
+      "provincia": "Lima"
+    }
+  ],
+  "vita_care_pulse": [
+    {
+      "id_vita_care_pulse": 27,
+      "numero_serie": "TUV789",
+      "fecha_activacion": "2022-04-01T00:00:00Z",
+      "estado_vita_care_pulse": "Activo",
+      "logs": [
+        {
+          "id_log": 27,
+          "fecha_registro": "2022-04-01T00:00:00Z",
+          "descripcion": "Activación del dispositivo"
+        }
+      ],
+      "integracion_sistema_salud": [
+        {
+          "id_integracion_sistema_salud": 27,
+          "id_profesional_medico": 27,
+          "fecha_integracion": "2022-04-02T00:00:00Z",
+          "estado_integracion_sistema_salud": "Completa"
+        }
+      ],
+      "signos_vitales": [
+        {
+          "id_signo_vital": 27,
+          "tipo_signo_vital": "Presión Arterial",
+          "valor": 118,
+          "fecha_registro": "2022-04-03T00:00:00Z"
+        }
+      ],
+      "conectividad": [
+        {
+          "id_conectividad": 27,
+          "fecha_conexion": "2022-04-04T00:00:00Z",
+          "estado_conectividad": "Conectado"
+        }
+      ],
+      "notificaciones": [
+        {
+          "id_notificacion": 27,
+          "tipo_notificacion": "Alerta",
+          "mensaje": "Presión arterial alta",
+          "fecha_envio": "2022-04-05T00:00:00Z"
+        }
+      ],
+      "configuracion": [
+        {
+          "id_configuracion": 27,
+          "parametro": "Umbral presión arterial",
+          "valor": "125"
+        }
+      ]
+    }
+  ],
+  "historial_salud": [
+    {
+      "id_historial_salud": 27,
+      "fecha_registro": "2022-04-06T00:00:00Z",
+      "descripcion": "Consulta médica",
+      "prescripciones": [
+        {
+          "id_prescripciones": 27,
+          "fecha_inicio": "2022-04-07T00:00:00Z",
+          "fecha_fin": "2022-12-31T00:00:00Z",
+          "recetas": [
+            {
+              "id_receta": 27,
+              "medicamento": "Amlodipino",
+              "dosis": "5mg",
+              "frecuencia": "Cada 24 horas",
+              "fecha_inicio": "2022-04-07T00:00:00Z",
+              "fecha_fin": "2022-12-31T00:00:00Z",
+              "notas": "Tomar por la mañana"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "agenda": [
+    {
+      "id_agenda": 27,
+      "id_receta": 27,
+      "id_dispositivo_movil": 27,
+      "fecha_y_hora_agenda": "2022-04-08T10:00:00Z"
+    }
+  ]
+},
+{
+  "_id": 28,
+  "id_adulto_mayor": 28,
+  "id_familiar": 28,
+  "nombre": "Antonio",
+  "apellido": "Garcia",
+  "fecha_nacimiento": "1952-10-19T00:00:00Z",
+  "genero": "Masculino",
+  "familiares": [
+    {
+      "id_familiar": 28,
+      "nombre": "Sofia",
+      "apellido": "Garcia",
+      "direccion": "Avenida 789",
+      "telefono": "987654337",
+      "distrito": "Surco",
+      "provincia": "Lima"
+    }
+  ],
+  "vita_care_pulse": [
+    {
+      "id_vita_care_pulse": 28,
+      "numero_serie": "WXY012",
+      "fecha_activacion": "2022-05-01T00:00:00Z",
+      "estado_vita_care_pulse": "Activo",
+      "logs": [
+        {
+          "id_log": 28,
+          "fecha_registro": "2022-05-01T00:00:00Z",
+          "descripcion": "Activación del dispositivo"
+        }
+      ],
+      "integracion_sistema_salud": [
+        {
+          "id_integracion_sistema_salud": 28,
+          "id_profesional_medico": 28,
+          "fecha_integracion": "2022-05-02T00:00:00Z",
+          "estado_integracion_sistema_salud": "Completa"
+        }
+      ],
+      "signos_vitales": [
+        {
+          "id_signo_vital": 28,
+          "tipo_signo_vital": "Frecuencia Respiratoria",
+          "valor": 20,
+          "fecha_registro": "2022-05-03T00:00:00Z"
+        }
+      ],
+      "conectividad": [
+        {
+          "id_conectividad": 28,
+          "fecha_conexion": "2022-05-04T00:00:00Z",
+          "estado_conectividad": "Conectado"
+        }
+      ],
+      "notificaciones": [
+        {
+          "id_notificacion": 28,
+          "tipo_notificacion": "Alerta",
+          "mensaje": "Frecuencia respiratoria alta",
+          "fecha_envio": "2022-05-05T00:00:00Z"
+        }
+      ],
+      "configuracion": [
+        {
+          "id_configuracion": 28,
+          "parametro": "Umbral frecuencia respiratoria",
+          "valor": "22"
+        }
+      ]
+    }
+  ],
+  "historial_salud": [
+    {
+      "id_historial_salud": 28,
+      "fecha_registro": "2022-05-06T00:00:00Z",
+      "descripcion": "Consulta médica",
+      "prescripciones": [
+        {
+          "id_prescripciones": 28,
+          "fecha_inicio": "2022-05-07T00:00:00Z",
+          "fecha_fin": "2022-12-31T00:00:00Z",
+          "recetas": [
+            {
+              "id_receta": 28,
+              "medicamento": "Salmeterol",
+              "dosis": "50mcg",
+              "frecuencia": "Cada 12 horas",
+              "fecha_inicio": "2022-05-07T00:00:00Z",
+              "fecha_fin": "2022-12-31T00:00:00Z",
+              "notas": "Inhalar profundamente"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "agenda": [
+    {
+      "id_agenda": 28,
+      "id_receta": 28,
+      "id_dispositivo_movil": 28,
+      "fecha_y_hora_agenda": "2022-05-08T10:00:00Z"
+    }
+  ]
+},
+{
+  "_id": 29,
+  "id_adulto_mayor": 29,
+  "id_familiar": 29,
+  "nombre": "Elena",
+  "apellido": "Rojas",
+  "fecha_nacimiento": "1953-06-15T00:00:00Z",
+  "genero": "Femenino",
+  "familiares": [
+    {
+      "id_familiar": 29,
+      "nombre": "Carlos",
+      "apellido": "Rojas",
+      "direccion": "Calle 123",
+      "telefono": "987654338",
+      "distrito": "Miraflores",
+      "provincia": "Lima"
+    }
+  ],
+  "vita_care_pulse": [
+    {
+      "id_vita_care_pulse": 29,
+      "numero_serie": "ZAB345",
+      "fecha_activacion": "2022-06-01T00:00:00Z",
+      "estado_vita_care_pulse": "Activo",
+      "logs": [
+        {
+          "id_log": 29,
+          "fecha_registro": "2022-06-01T00:00:00Z",
+          "descripcion": "Activación del dispositivo"
+        }
+      ],
+      "integracion_sistema_salud": [
+        {
+          "id_integracion_sistema_salud": 29,
+          "id_profesional_medico": 29,
+          "fecha_integracion": "2022-06-02T00:00:00Z",
+          "estado_integracion_sistema_salud": "Completa"
+        }
+      ],
+      "signos_vitales": [
+        {
+          "id_signo_vital": 29,
+          "tipo_signo_vital": "Presión Arterial",
+          "valor": 117,
+          "fecha_registro": "2022-06-03T00:00:00Z"
+        }
+      ],
+      "conectividad": [
+        {
+          "id_conectividad": 29,
+          "fecha_conexion": "2022-06-04T00:00:00Z",
+          "estado_conectividad": "Conectado"
+        }
+      ],
+      "notificaciones": [
+        {
+          "id_notificacion": 29,
+          "tipo_notificacion": "Alerta",
+          "mensaje": "Presión arterial alta",
+          "fecha_envio": "2022-06-05T00:00:00Z"
+        }
+      ],
+      "configuracion": [
+        {
+          "id_configuracion": 29,
+          "parametro": "Umbral presión arterial",
+          "valor": "120"
+        }
+      ]
+    }
+  ],
+  "historial_salud": [
+    {
+      "id_historial_salud": 29,
+      "fecha_registro": "2022-06-06T00:00:00Z",
+      "descripcion": "Consulta médica",
+      "prescripciones": [
+        {
+          "id_prescripciones": 29,
+          "fecha_inicio": "2022-06-07T00:00:00Z",
+          "fecha_fin": "2022-12-31T00:00:00Z",
+          "recetas": [
+            {
+              "id_receta": 29,
+              "medicamento": "Enalapril",
+              "dosis": "10mg",
+              "frecuencia": "Cada 24 horas",
+              "fecha_inicio": "2022-06-07T00:00:00Z",
+              "fecha_fin": "2022-12-31T00:00:00Z",
+              "notas": "Tomar por la mañana"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "agenda": [
+    {
+      "id_agenda": 29,
+      "id_receta": 29,
+      "id_dispositivo_movil": 29,
+      "fecha_y_hora_agenda": "2022-06-08T10:00:00Z"
+    }
+  ]
+},
+{
+  "_id": 30,
+  "id_adulto_mayor": 30,
+  "id_familiar": 30,
+  "nombre": "Miguel",
+  "apellido": "Diaz",
+  "fecha_nacimiento": "1954-12-01T00:00:00Z",
+  "genero": "Masculino",
+  "familiares": [
+    {
+      "id_familiar": 30,
+      "nombre": "Lucia",
+      "apellido": "Diaz",
+      "direccion": "Avenida 456",
+      "telefono": "987654339",
+      "distrito": "San Borja",
+      "provincia": "Lima"
+    }
+  ],
+  "vita_care_pulse": [
+    {
+      "id_vita_care_pulse": 30,
+      "numero_serie": "CDE678",
+      "fecha_activacion": "2022-07-01T00:00:00Z",
+      "estado_vita_care_pulse": "Activo",
+      "logs": [
+        {
+          "id_log": 30,
+          "fecha_registro": "2022-07-01T00:00:00Z",
+          "descripcion": "Activación del dispositivo"
+        }
+      ],
+      "integracion_sistema_salud": [
+        {
+          "id_integracion_sistema_salud": 30,
+          "id_profesional_medico": 30,
+          "fecha_integracion": "2022-07-02T00:00:00Z",
+          "estado_integracion_sistema_salud": "Completa"
+        }
+      ],
+      "signos_vitales": [
+        {
+          "id_signo_vital": 30,
+          "tipo_signo_vital": "Presión Arterial",
+          "valor": 110,
+          "fecha_registro": "2022-07-03T00:00:00Z"
+        }
+      ],
+      "conectividad": [
+        {
+          "id_conectividad": 30,
+          "fecha_conexion": "2022-07-04T00:00:00Z",
+          "estado_conectividad": "Conectado"
+        }
+      ],
+      "notificaciones": [
+        {
+          "id_notificacion": 30,
+          "tipo_notificacion": "Alerta",
+          "mensaje": "Presión arterial baja",
+          "fecha_envio": "2022-07-05T00:00:00Z"
+        }
+      ],
+      "configuracion": [
+        {
+          "id_configuracion": 30,
+          "parametro": "Umbral presión arterial",
+          "valor": "115"
+        }
+      ]
+    }
+  ],
+  "historial_salud": [
+    {
+      "id_historial_salud": 30,
+      "fecha_registro": "2022-07-06T00:00:00Z",
+      "descripcion": "Consulta médica",
+      "prescripciones": [
+        {
+          "id_prescripciones": 30,
+          "fecha_inicio": "2022-07-07T00:00:00Z",
+          "fecha_fin": "2022-12-31T00:00:00Z",
+          "recetas": [
+            {
+              "id_receta": 30,
+              "medicamento": "Lisinopril",
+              "dosis": "20mg",
+              "frecuencia": "Cada 24 horas",
+              "fecha_inicio": "2022-07-07T00:00:00Z",
+              "fecha_fin": "2022-12-31T00:00:00Z",
+              "notas": "Tomar por la mañana"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "agenda": [
+    {
+      "id_agenda": 30,
+      "id_receta": 30,
+      "id_dispositivo_movil": 30,
+      "fecha_y_hora_agenda": "2022-07-08T10:00:00Z"
+    }
+  ]
+},
+{
+  "_id": 31,
+  "id_adulto_mayor": 31,
+  "id_familiar": 31,
+  "nombre": "Gabriela",
+  "apellido": "Hernandez",
+  "fecha_nacimiento": "1955-09-25T00:00:00Z",
+  "genero": "Femenino",
+  "familiares": [
+    {
+      "id_familiar": 31,
+      "nombre": "Jose",
+      "apellido": "Hernandez",
+      "direccion": "Calle 789",
+      "telefono": "987654340",
+      "distrito": "San Miguel",
+      "provincia": "Lima"
+    }
+  ],
+  "vita_care_pulse": [
+    {
+      "id_vita_care_pulse": 31,
+      "numero_serie": "FGH901",
+      "fecha_activacion": "2022-08-01T00:00:00Z",
+      "estado_vita_care_pulse": "Activo",
+      "logs": [
+        {
+          "id_log": 31,
+          "fecha_registro": "2022-08-01T00:00:00Z",
+          "descripcion": "Activación del dispositivo"
+        }
+      ],
+      "integracion_sistema_salud": [
+        {
+          "id_integracion_sistema_salud": 31,
+          "id_profesional_medico": 31,
+          "fecha_integracion": "2022-08-02T00:00:00Z",
+          "estado_integracion_sistema_salud": "Completa"
+        }
+      ],
+      "signos_vitales": [
+        {
+          "id_signo_vital": 31,
+          "tipo_signo_vital": "Frecuencia Cardíaca",
+          "valor": 78,
+          "fecha_registro": "2022-08-03T00:00:00Z"
+        }
+      ],
+      "conectividad": [
+        {
+          "id_conectividad": 31,
+          "fecha_conexion": "2022-08-04T00:00:00Z",
+          "estado_conectividad": "Conectado"
+        }
+      ],
+      "notificaciones": [
+        {
+          "id_notificacion": 31,
+          "tipo_notificacion": "Alerta",
+          "mensaje": "Frecuencia cardíaca alta",
+          "fecha_envio": "2022-08-05T00:00:00Z"
+        }
+      ],
+      "configuracion": [
+        {
+          "id_configuracion": 31,
+          "parametro": "Umbral frecuencia cardíaca",
+          "valor": "85"
+        }
+      ]
+    }
+  ],
+  "historial_salud": [
+    {
+      "id_historial_salud": 31,
+      "fecha_registro": "2022-08-06T00:00:00Z",
+      "descripcion": "Consulta médica",
+      "prescripciones": [
+        {
+          "id_prescripciones": 31,
+          "fecha_inicio": "2022-08-07T00:00:00Z",
+          "fecha_fin": "2022-12-31T00:00:00Z",
+          "recetas": [
+            {
+              "id_receta": 31,
+              "medicamento": "Metoprolol",
+              "dosis": "50mg",
+              "frecuencia": "Cada 24 horas",
+              "fecha_inicio": "2022-08-07T00:00:00Z",
+              "fecha_fin": "2022-12-31T00:00:00Z",
+              "notas": "Tomar por la mañana"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "agenda": [
+    {
+      "id_agenda": 31,
+      "id_receta": 31,
+      "id_dispositivo_movil": 31,
+      "fecha_y_hora_agenda": "2022-08-08T10:00:00Z"
+    }
+  ]
+},
+{
+  "_id": 32,
+  "id_adulto_mayor": 32,
+  "id_familiar": 32,
+  "nombre": "Manuel",
+  "apellido": "Perez",
+  "fecha_nacimiento": "1956-11-10T00:00:00Z",
+  "genero": "Masculino",
+  "familiares": [
+    {
+      "id_familiar": 32,
+      "nombre": "Rosa",
+      "apellido": "Perez",
+      "direccion": "Avenida 321",
+      "telefono": "987654341",
+      "distrito": "La Molina",
+      "provincia": "Lima"
+    }
+  ],
+  "vita_care_pulse": [
+    {
+      "id_vita_care_pulse": 32,
+      "numero_serie": "IJK234",
+      "fecha_activacion": "2022-09-01T00:00:00Z",
+      "estado_vita_care_pulse": "Activo",
+      "logs": [
+        {
+          "id_log": 32,
+          "fecha_registro": "2022-09-01T00:00:00Z",
+          "descripcion": "Activación del dispositivo"
+        }
+      ],
+      "integracion_sistema_salud": [
+        {
+          "id_integracion_sistema_salud": 32,
+          "id_profesional_medico": 32,
+          "fecha_integracion": "2022-09-02T00:00:00Z",
+          "estado_integracion_sistema_salud": "Completa"
+        }
+      ],
+      "signos_vitales": [
+        {
+          "id_signo_vital": 32,
+          "tipo_signo_vital": "Presión Arterial",
+          "valor": 130,
+          "fecha_registro": "2022-09-03T00:00:00Z"
+        }
+      ],
+      "conectividad": [
+        {
+          "id_conectividad": 32,
+          "fecha_conexion": "2022-09-04T00:00:00Z",
+          "estado_conectividad": "Conectado"
+        }
+      ],
+      "notificaciones": [
+        {
+          "id_notificacion": 32,
+          "tipo_notificacion": "Alerta",
+          "mensaje": "Presión arterial alta",
+          "fecha_envio": "2022-09-05T00:00:00Z"
+        }
+      ],
+      "configuracion": [
+        {
+          "id_configuracion": 32,
+          "parametro": "Umbral presión arterial",
+          "valor": "125"
+        }
+      ]
+    }
+  ],
+  "historial_salud": [
+    {
+      "id_historial_salud": 32,
+      "fecha_registro": "2022-09-06T00:00:00Z",
+      "descripcion": "Consulta médica",
+      "prescripciones": [
+        {
+          "id_prescripciones": 32,
+          "fecha_inicio": "2022-09-07T00:00:00Z",
+          "fecha_fin": "2022-12-31T00:00:00Z",
+          "recetas": [
+            {
+              "id_receta": 32,
+              "medicamento": "Losartan",
+              "dosis": "50mg",
+              "frecuencia": "Cada 24 horas",
+              "fecha_inicio": "2022-09-07T00:00:00Z",
+              "fecha_fin": "2022-12-31T00:00:00Z",
+              "notas": "Tomar por la mañana"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "agenda": [
+    {
+      "id_agenda": 32,
+      "id_receta": 32,
+      "id_dispositivo_movil": 32,
+      "fecha_y_hora_agenda": "2022-09-08T10:00:00Z"
+    }
+  ]
+},
+{
+  "_id": 33,
+  "id_adulto_mayor": 33,
+  "id_familiar": 33,
+  "nombre": "Rafael",
+  "apellido": "Torres",
+  "fecha_nacimiento": "1957-03-10T00:00:00Z",
+  "genero": "Masculino",
+  "familiares": [
+    {
+      "id_familiar": 33,
+      "nombre": "Laura",
+      "apellido": "Torres",
+      "direccion": "Calle 654",
+      "telefono": "987654342",
+      "distrito": "Barranco",
+      "provincia": "Lima"
+    }
+  ],
+  "vita_care_pulse": [
+    {
+      "id_vita_care_pulse": 33,
+      "numero_serie": "LMN567",
+      "fecha_activacion": "2022-10-01T00:00:00Z",
+      "estado_vita_care_pulse": "Activo",
+      "logs": [
+        {
+          "id_log": 33,
+          "fecha_registro": "2022-10-01T00:00:00Z",
+          "descripcion": "Activación del dispositivo"
+        }
+      ],
+      "integracion_sistema_salud": [
+        {
+          "id_integracion_sistema_salud": 33,
+          "id_profesional_medico": 33,
+          "fecha_integracion": "2022-10-02T00:00:00Z",
+          "estado_integracion_sistema_salud": "Completa"
+        }
+      ],
+      "signos_vitales": [
+        {
+          "id_signo_vital": 33,
+          "tipo_signo_vital": "Frecuencia Respiratoria",
+          "valor": 18,
+          "fecha_registro": "2022-10-03T00:00:00Z"
+        }
+      ],
+      "conectividad": [
+        {
+          "id_conectividad": 33,
+          "fecha_conexion": "2022-10-04T00:00:00Z",
+          "estado_conectividad": "Conectado"
+        }
+      ],
+      "notificaciones": [
+        {
+          "id_notificacion": 33,
+          "tipo_notificacion": "Alerta",
+          "mensaje": "Frecuencia respiratoria alta",
+          "fecha_envio": "2022-10-05T00:00:00Z"
+        }
+      ],
+      "configuracion": [
+        {
+          "id_configuracion": 33,
+          "parametro": "Umbral frecuencia respiratoria",
+          "valor": "20"
+        }
+      ]
+    }
+  ],
+  "historial_salud": [
+    {
+      "id_historial_salud": 33,
+      "fecha_registro": "2022-10-06T00:00:00Z",
+      "descripcion": "Consulta médica",
+      "prescripciones": [
+        {
+          "id_prescripciones": 33,
+          "fecha_inicio": "2022-10-07T00:00:00Z",
+          "fecha_fin": "2022-12-31T00:00:00Z",
+          "recetas": [
+            {
+              "id_receta": 33,
+              "medicamento": "Salbutamol",
+              "dosis": "100mcg",
+              "frecuencia": "Cada 6 horas",
+              "fecha_inicio": "2022-10-07T00:00:00Z",
+              "fecha_fin": "2022-12-31T00:00:00Z",
+              "notas": "Usar solo si es necesario"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "agenda": [
+    {
+      "id_agenda": 33,
+      "id_receta": 33,
+      "id_dispositivo_movil": 33,
+      "fecha_y_hora_agenda": "2022-10-08T10:00:00Z"
+    }
+  ]
+},
+{
+  "_id": 34,
+  "id_adulto_mayor": 34,
+  "id_familiar": 34,
+  "nombre": "Angela",
+  "apellido": "Martinez",
+  "fecha_nacimiento": "1958-04-14T00:00:00Z",
+  "genero": "Femenino",
+  "familiares": [
+    {
+      "id_familiar": 34,
+      "nombre": "Juan",
+      "apellido": "Martinez",
+      "direccion": "Avenida 987",
+      "telefono": "987654343",
+      "distrito": "Surco",
+      "provincia": "Lima"
+    }
+  ],
+  "vita_care_pulse": [
+    {
+      "id_vita_care_pulse": 34,
+      "numero_serie": "OPQ890",
+      "fecha_activacion": "2022-11-01T00:00:00Z",
+      "estado_vita_care_pulse": "Activo",
+      "logs": [
+        {
+          "id_log": 34,
+          "fecha_registro": "2022-11-01T00:00:00Z",
+          "descripcion": "Activación del dispositivo"
+        }
+      ],
+      "integracion_sistema_salud": [
+        {
+          "id_integracion_sistema_salud": 34,
+          "id_profesional_medico": 34,
+          "fecha_integracion": "2022-11-02T00:00:00Z",
+          "estado_integracion_sistema_salud": "Completa"
+        }
+      ],
+      "signos_vitales": [
+        {
+          "id_signo_vital": 34,
+          "tipo_signo_vital": "Frecuencia Cardíaca",
+          "valor": 75,
+          "fecha_registro": "2022-11-03T00:00:00Z"
+        }
+      ],
+      "conectividad": [
+        {
+          "id_conectividad": 34,
+          "fecha_conexion": "2022-11-04T00:00:00Z",
+          "estado_conectividad": "Conectado"
+        }
+      ],
+      "notificaciones": [
+        {
+          "id_notificacion": 34,
+          "tipo_notificacion": "Alerta",
+          "mensaje": "Frecuencia cardíaca alta",
+          "fecha_envio": "2022-11-05T00:00:00Z"
+        }
+      ],
+      "configuracion": [
+        {
+          "id_configuracion": 34,
+          "parametro": "Umbral frecuencia cardíaca",
+          "valor": "80"
+        }
+      ]
+    }
+  ],
+  "historial_salud": [
+    {
+      "id_historial_salud": 34,
+      "fecha_registro": "2022-11-06T00:00:00Z",
+      "descripcion": "Consulta médica",
+      "prescripciones": [
+        {
+          "id_prescripciones": 34,
+          "fecha_inicio": "2022-11-07T00:00:00Z",
+          "fecha_fin": "2022-12-31T00:00:00Z",
+          "recetas": [
+            {
+              "id_receta": 34,
+              "medicamento": "Atenolol",
+              "dosis": "50mg",
+              "frecuencia": "Cada 24 horas",
+              "fecha_inicio": "2022-11-07T00:00:00Z",
+              "fecha_fin": "2022-12-31T00:00:00Z",
+              "notas": "Tomar por la mañana"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "agenda": [
+    {
+      "id_agenda": 34,
+      "id_receta": 34,
+      "id_dispositivo_movil": 34,
+      "fecha_y_hora_agenda": "2022-11-08T10:00:00Z"
+    }
+  ]
+},
+{
+  "_id": 35,
+  "id_adulto_mayor": 35,
+  "id_familiar": 35,
+  "nombre": "Carlos",
+  "apellido": "Morales",
+  "fecha_nacimiento": "1959-05-19T00:00:00Z",
+  "genero": "Masculino",
+  "familiares": [
+    {
+      "id_familiar": 35,
+      "nombre": "Eva",
+      "apellido": "Morales",
+      "direccion": "Calle 432",
+      "telefono": "987654344",
+      "distrito": "Miraflores",
+      "provincia": "Lima"
+    }
+  ],
+  "vita_care_pulse": [
+    {
+      "id_vita_care_pulse": 35,
+      "numero_serie": "RST123",
+      "fecha_activacion": "2022-12-01T00:00:00Z",
+      "estado_vita_care_pulse": "Activo",
+      "logs": [
+        {
+          "id_log": 35,
+          "fecha_registro": "2022-12-01T00:00:00Z",
+          "descripcion": "Activación del dispositivo"
+        }
+      ],
+      "integracion_sistema_salud": [
+        {
+          "id_integracion_sistema_salud": 35,
+          "id_profesional_medico": 35,
+          "fecha_integracion": "2022-11-02T00:00:00Z",
+          "estado_integracion_sistema_salud": "Completa"
+        }
+      ],
+      "signos_vitales": [
+        {
+          "id_signo_vital": 35,
+          "tipo_signo_vital": "Frecuencia Cardíaca",
+          "valor": 75,
+          "fecha_registro": "2022-11-03T00:00:00Z"
+        }
+      ],
+      "conectividad": [
+        {
+          "id_conectividad": 35,
+          "fecha_conexion": "2022-11-04T00:00:00Z",
+          "estado_conectividad": "Conectado"
+        }
+      ],
+      "notificaciones": [
+        {
+          "id_notificacion": 35,
+          "tipo_notificacion": "Alerta",
+          "mensaje": "Frecuencia cardíaca alta",
+          "fecha_envio": "2022-11-05T00:00:00Z"
+        }
+      ],
+      "configuracion": [
+        {
+          "id_configuracion": 35,
+          "parametro": "Umbral frecuencia cardíaca",
+          "valor": "80"
+        }
+      ]
+    }
+  ],
+  "historial_salud": [
+    {
+      "id_historial_salud": 35,
+      "fecha_registro": "2022-11-06T00:00:00Z",
+      "descripcion": "Consulta médica",
+      "prescripciones": [
+        {
+          "id_prescripciones": 35,
+          "fecha_inicio": "2022-11-07T00:00:00Z",
+          "fecha_fin": "2022-12-31T00:00:00Z",
+          "recetas": [
+            {
+              "id_receta": 35,
+              "medicamento": "Atenolol",
+              "dosis": "50mg",
+              "frecuencia": "Cada 24 horas",
+              "fecha_inicio": "2022-11-07T00:00:00Z",
+              "fecha_fin": "2022-12-31T00:00:00Z",
+              "notas": "Tomar por la mañana"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "agenda": [
+    {
+      "id_agenda": 35,
+      "id_receta": 35,
+      "id_dispositivo_movil": 35,
+      "fecha_y_hora_agenda": "2022-11-08T10:00:00Z"
+    }
+  ]
+},
+{
+  "_id": 36,
+  "id_adulto_mayor": 36,
+  "id_familiar": 36,
+  "nombre": "Ana",
+  "apellido": "González",
+  "fecha_nacimiento": "1960-07-12T00:00:00Z",
+  "genero": "Femenino",
+  "familiares": [
+    {
+      "id_familiar": 36,
+      "nombre": "Luis",
+      "apellido": "González",
+      "direccion": "Avenida Siempre Viva 123",
+      "telefono": "987654321",
+      "distrito": "San Isidro",
+      "provincia": "Lima"
+    }
+  ],
+  "vita_care_pulse": [
+    {
+      "id_vita_care_pulse": 36,
+      "numero_serie": "RST124",
+      "fecha_activacion": "2022-12-02T00:00:00Z",
+      "estado_vita_care_pulse": "Activo",
+      "logs": [
+        {
+          "id_log": 36,
+          "fecha_registro": "2022-12-02T00:00:00Z",
+          "descripcion": "Activación del dispositivo"
+        }
+      ],
+      "integracion_sistema_salud": [
+        {
+          "id_integracion_sistema_salud": 36,
+          "id_profesional_medico": 36,
+          "fecha_integracion": "2022-11-03T00:00:00Z",
+          "estado_integracion_sistema_salud": "Completa"
+        }
+      ],
+      "signos_vitales": [
+        {
+          "id_signo_vital": 36,
+          "tipo_signo_vital": "Frecuencia Cardíaca",
+          "valor": 72,
+          "fecha_registro": "2022-11-04T00:00:00Z"
+        }
+      ],
+      "conectividad": [
+        {
+          "id_conectividad": 36,
+          "fecha_conexion": "2022-11-05T00:00:00Z",
+          "estado_conectividad": "Conectado"
+        }
+      ],
+      "notificaciones": [
+        {
+          "id_notificacion": 36,
+          "tipo_notificacion": "Alerta",
+          "mensaje": "Frecuencia cardíaca alta",
+          "fecha_envio": "2022-11-06T00:00:00Z"
+        }
+      ],
+      "configuracion": [
+        {
+          "id_configuracion": 36,
+          "parametro": "Umbral frecuencia cardíaca",
+          "valor": "85"
+        }
+      ]
+    }
+  ],
+  "historial_salud": [
+    {
+      "id_historial_salud": 36,
+      "fecha_registro": "2022-11-07T00:00:00Z",
+      "descripcion": "Consulta médica",
+      "prescripciones": [
+        {
+          "id_prescripciones": 36,
+          "fecha_inicio": "2022-11-08T00:00:00Z",
+          "fecha_fin": "2022-12-31T00:00:00Z",
+          "recetas": [
+            {
+              "id_receta": 36,
+              "medicamento": "Metoprolol",
+              "dosis": "100mg",
+              "frecuencia": "Cada 12 horas",
+              "fecha_inicio": "2022-11-08T00:00:00Z",
+              "fecha_fin": "2022-12-31T00:00:00Z",
+              "notas": "Tomar con las comidas"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "agenda": [
+    {
+      "id_agenda": 36,
+      "id_receta": 36,
+      "id_dispositivo_movil": 36,
+      "fecha_y_hora_agenda": "2022-11-09T11:00:00Z"
+    }
+  ]
+},
+{
+  "_id": 37,
+  "id_adulto_mayor": 37,
+  "id_familiar": 37,
+  "nombre": "Juan",
+  "apellido": "Pérez",
+  "fecha_nacimiento": "1958-08-23T00:00:00Z",
+  "genero": "Masculino",
+  "familiares": [
+    {
+      "id_familiar": 37,
+      "nombre": "Marta",
+      "apellido": "Pérez",
+      "direccion": "Calle Falsa 456",
+      "telefono": "987654322",
+      "distrito": "Barranco",
+      "provincia": "Lima"
+    }
+  ],
+  "vita_care_pulse": [
+    {
+      "id_vita_care_pulse": 37,
+      "numero_serie": "RST125",
+      "fecha_activacion": "2022-12-03T00:00:00Z",
+      "estado_vita_care_pulse": "Activo",
+      "logs": [
+        {
+          "id_log": 37,
+          "fecha_registro": "2022-12-03T00:00:00Z",
+          "descripcion": "Activación del dispositivo"
+        }
+      ],
+      "integracion_sistema_salud": [
+        {
+          "id_integracion_sistema_salud": 37,
+          "id_profesional_medico": 37,
+          "fecha_integracion": "2022-11-04T00:00:00Z",
+          "estado_integracion_sistema_salud": "Completa"
+        }
+      ],
+      "signos_vitales": [
+        {
+          "id_signo_vital": 37,
+          "tipo_signo_vital": "Frecuencia Cardíaca",
+          "valor": 78,
+          "fecha_registro": "2022-11-05T00:00:00Z"
+        }
+      ],
+      "conectividad": [
+        {
+          "id_conectividad": 37,
+          "fecha_conexion": "2022-11-06T00:00:00Z",
+          "estado_conectividad": "Conectado"
+        }
+      ],
+      "notificaciones": [
+        {
+          "id_notificacion": 37,
+          "tipo_notificacion": "Alerta",
+          "mensaje": "Frecuencia cardíaca alta",
+          "fecha_envio": "2022-11-07T00:00:00Z"
+        }
+      ],
+      "configuracion": [
+        {
+          "id_configuracion": 37,
+          "parametro": "Umbral frecuencia cardíaca",
+          "valor": "82"
+        }
+      ]
+    }
+  ],
+  "historial_salud": [
+    {
+      "id_historial_salud": 37,
+      "fecha_registro": "2022-11-08T00:00:00Z",
+      "descripcion": "Consulta médica",
+      "prescripciones": [
+        {
+          "id_prescripciones": 37,
+          "fecha_inicio": "2022-11-09T00:00:00Z",
+          "fecha_fin": "2022-12-31T00:00:00Z",
+          "recetas": [
+            {
+              "id_receta": 37,
+              "medicamento": "Losartan",
+              "dosis": "25mg",
+              "frecuencia": "Cada 24 horas",
+              "fecha_inicio": "2022-11-09T00:00:00Z",
+              "fecha_fin": "2022-12-31T00:00:00Z",
+              "notas": "Tomar por la noche"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "agenda": [
+    {
+      "id_agenda": 37,
+      "id_receta": 37,
+      "id_dispositivo_movil": 37,
+      "fecha_y_hora_agenda": "2022-11-10T12:00:00Z"
+    }
+  ]
+},
+{
+  "_id": 38,
+  "id_adulto_mayor": 38,
+  "id_familiar": 38,
+  "nombre": "María",
+  "apellido": "Rodríguez",
+  "fecha_nacimiento": "1957-03-15T00:00:00Z",
+  "genero": "Femenino",
+  "familiares": [
+    {
+      "id_familiar": 38,
+      "nombre": "Pedro",
+      "apellido": "Rodríguez",
+      "direccion": "Avenida Central 789",
+      "telefono": "987654323",
+      "distrito": "Surco",
+      "provincia": "Lima"
+    }
+  ],
+  "vita_care_pulse": [
+    {
+      "id_vita_care_pulse": 38,
+      "numero_serie": "RST126",
+      "fecha_activacion": "2022-12-04T00:00:00Z",
+      "estado_vita_care_pulse": "Activo",
+      "logs": [
+        {
+          "id_log": 38,
+          "fecha_registro": "2022-12-04T00:00:00Z",
+          "descripcion": "Activación del dispositivo"
+        }
+      ],
+      "integracion_sistema_salud": [
+        {
+          "id_integracion_sistema_salud": 38,
+          "id_profesional_medico": 38,
+          "fecha_integracion": "2022-11-05T00:00:00Z",
+          "estado_integracion_sistema_salud": "Completa"
+        }
+      ],
+      "signos_vitales": [
+        {
+          "id_signo_vital": 38,
+          "tipo_signo_vital": "Frecuencia Cardíaca",
+          "valor": 80,
+          "fecha_registro": "2022-11-06T00:00:00Z"
+        }
+      ],
+      "conectividad": [
+        {
+          "id_conectividad": 38,
+          "fecha_conexion": "2022-11-07T00:00:00Z",
+          "estado_conectividad": "Conectado"
+        }
+      ],
+      "notificaciones": [
+        {
+          "id_notificacion": 38,
+          "tipo_notificacion": "Alerta",
+          "mensaje": "Frecuencia cardíaca alta",
+          "fecha_envio": "2022-11-08T00:00:00Z"
+        }
+      ],
+      "configuracion": [
+        {
+          "id_configuracion": 38,
+          "parametro": "Umbral frecuencia cardíaca",
+          "valor": "84"
+        }
+      ]
+    }
+  ],
+  "historial_salud": [
+    {
+      "id_historial_salud": 38,
+      "fecha_registro": "2022-11-09T00:00:00Z",
+      "descripcion": "Consulta médica",
+      "prescripciones": [
+        {
+          "id_prescripciones": 38,
+          "fecha_inicio": "2022-11-10T00:00:00Z",
+          "fecha_fin": "2022-12-31T00:00:00Z",
+          "recetas": [
+            {
+              "id_receta": 38,
+              "medicamento": "Amlodipino",
+              "dosis": "5mg",
+              "frecuencia": "Cada 24 horas",
+              "fecha_inicio": "2022-11-10T00:00:00Z",
+              "fecha_fin": "2022-12-31T00:00:00Z",
+              "notas": "Tomar por la tarde"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "agenda": [
+    {
+      "id_agenda": 38,
+      "id_receta": 38,
+      "id_dispositivo_movil": 38,
+      "fecha_y_hora_agenda": "2022-11-11T13:00:00Z"
+    }
+  ]
+},
+{
+  "_id": 39,
+  "id_adulto_mayor": 39,
+  "id_familiar": 39,
+  "nombre": "Pedro",
+  "apellido": "Martínez",
+  "fecha_nacimiento": "1956-09-20T00:00:00Z",
+  "genero": "Masculino",
+  "familiares": [
+    {
+      "id_familiar": 39,
+      "nombre": "Julia",
+      "apellido": "Martínez",
+      "direccion": "Calle Luna 101",
+      "telefono": "987654324",
+      "distrito": "San Borja",
+      "provincia": "Lima"
+    }
+  ],
+  "vita_care_pulse": [
+    {
+      "id_vita_care_pulse": 39,
+      "numero_serie": "RST127",
+      "fecha_activacion": "2022-12-05T00:00:00Z",
+      "estado_vita_care_pulse": "Activo",
+      "logs": [
+        {
+          "id_log": 39,
+          "fecha_registro": "2022-12-05T00:00:00Z",
+          "descripcion": "Activación del dispositivo"
+        }
+      ],
+      "integracion_sistema_salud": [
+        {
+          "id_integracion_sistema_salud": 39,
+          "id_profesional_medico": 39,
+          "fecha_integracion": "2022-11-06T00:00:00Z",
+          "estado_integracion_sistema_salud": "Completa"
+        }
+      ],
+      "signos_vitales": [
+        {
+          "id_signo_vital": 39,
+          "tipo_signo_vital": "Frecuencia Cardíaca",
+          "valor": 70,
+          "fecha_registro": "2022-11-07T00:00:00Z"
+        }
+      ],
+      "conectividad": [
+        {
+          "id_conectividad": 39,
+          "fecha_conexion": "2022-11-08T00:00:00Z",
+          "estado_conectividad": "Conectado"
+        }
+      ],
+      "notificaciones": [
+        {
+          "id_notificacion": 39,
+          "tipo_notificacion": "Alerta",
+          "mensaje": "Frecuencia cardíaca alta",
+          "fecha_envio": "2022-11-09T00:00:00Z"
+        }
+      ],
+      "configuracion": [
+        {
+          "id_configuracion": 39,
+          "parametro": "Umbral frecuencia cardíaca",
+          "valor": "81"
+        }
+      ]
+    }
+  ],
+  "historial_salud": [
+    {
+      "id_historial_salud": 39,
+      "fecha_registro": "2022-11-10T00:00:00Z",
+      "descripcion": "Consulta médica",
+      "prescripciones": [
+        {
+          "id_prescripciones": 39,
+          "fecha_inicio": "2022-11-11T00:00:00Z",
+          "fecha_fin": "2022-12-31T00:00:00Z",
+          "recetas": [
+            {
+              "id_receta": 39,
+              "medicamento": "Lisinopril",
+              "dosis": "10mg",
+              "frecuencia": "Cada 24 horas",
+              "fecha_inicio": "2022-11-11T00:00:00Z",
+              "fecha_fin": "2022-12-31T00:00:00Z",
+              "notas": "Tomar en ayunas"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "agenda": [
+    {
+      "id_agenda": 39,
+      "id_receta": 39,
+      "id_dispositivo_movil": 39,
+      "fecha_y_hora_agenda": "2022-11-12T14:00:00Z"
+    }
+  ]
+},
+{
+  "_id": 40,
+  "id_adulto_mayor": 40,
+  "id_familiar": 40,
+  "nombre": "Laura",
+  "apellido": "Hernández",
+  "fecha_nacimiento": "1961-02-28T00:00:00Z",
+  "genero": "Femenino",
+  "familiares": [
+    {
+      "id_familiar": 40,
+      "nombre": "Jorge",
+      "apellido": "Hernández",
+      "direccion": "Avenida Sol 202",
+      "telefono": "987654325",
+      "distrito": "La Molina",
+      "provincia": "Lima"
+    }
+  ],
+  "vita_care_pulse": [
+    {
+      "id_vita_care_pulse": 40,
+      "numero_serie": "RST128",
+      "fecha_activacion": "2022-12-06T00:00:00Z",
+      "estado_vita_care_pulse": "Activo",
+      "logs": [
+        {
+          "id_log": 40,
+          "fecha_registro": "2022-12-06T00:00:00Z",
+          "descripcion": "Activación del dispositivo"
+        }
+      ],
+      "integracion_sistema_salud": [
+        {
+          "id_integracion_sistema_salud": 40,
+          "id_profesional_medico": 40,
+          "fecha_integracion": "2022-11-07T00:00:00Z",
+          "estado_integracion_sistema_salud": "Completa"
+        }
+      ],
+      "signos_vitales": [
+        {
+          "id_signo_vital": 40,
+          "tipo_signo_vital": "Frecuencia Cardíaca",
+          "valor": 74,
+          "fecha_registro": "2022-11-08T00:00:00Z"
+        }
+      ],
+      "conectividad": [
+        {
+          "id_conectividad": 40,
+          "fecha_conexion": "2022-11-09T00:00:00Z",
+          "estado_conectividad": "Conectado"
+        }
+      ],
+      "notificaciones": [
+        {
+          "id_notificacion": 40,
+          "tipo_notificacion": "Alerta",
+          "mensaje": "Frecuencia cardíaca alta",
+          "fecha_envio": "2022-11-10T00:00:00Z"
+        }
+      ],
+      "configuracion": [
+        {
+          "id_configuracion": 40,
+          "parametro": "Umbral frecuencia cardíaca",
+          "valor": "83"
+        }
+      ]
+    }
+  ],
+  "historial_salud": [
+    {
+      "id_historial_salud": 40,
+      "fecha_registro": "2022-11-11T00:00:00Z",
+      "descripcion": "Consulta médica",
+      "prescripciones": [
+        {
+          "id_prescripciones": 40,
+          "fecha_inicio": "2022-11-12T00:00:00Z",
+          "fecha_fin": "2022-12-31T00:00:00Z",
+          "recetas": [
+            {
+              "id_receta": 40,
+              "medicamento": "Enalapril",
+              "dosis": "20mg",
+              "frecuencia": "Cada 24 horas",
+              "fecha_inicio": "2022-11-12T00:00:00Z",
+              "fecha_fin": "2022-12-31T00:00:00Z",
+              "notas": "Tomar antes de dormir"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "agenda": [
+    {
+      "id_agenda": 40,
+      "id_receta": 40,
+      "id_dispositivo_movil": 40,
+      "fecha_y_hora_agenda": "2022-11-13T15:00:00Z"
+    }
+  ]
+},
+{
+  "_id": 41,
+  "id_adulto_mayor": 41,
+  "id_familiar": 41,
+  "nombre": "Francisco",
+  "apellido": "López",
+  "fecha_nacimiento": "1955-01-10T00:00:00Z",
+  "genero": "Masculino",
+  "familiares": [
+    {
+      "id_familiar": 41,
+      "nombre": "Elena",
+      "apellido": "López",
+      "direccion": "Calle Principal 303",
+      "telefono": "987654326",
+      "distrito": "San Miguel",
+      "provincia": "Lima"
+    }
+  ],
+  "vita_care_pulse": [
+    {
+      "id_vita_care_pulse": 41,
+      "numero_serie": "RST129",
+      "fecha_activacion": "2022-12-07T00:00:00Z",
+      "estado_vita_care_pulse": "Activo",
+      "logs": [
+        {
+          "id_log": 41,
+          "fecha_registro": "2022-12-07T00:00:00Z",
+          "descripcion": "Activación del dispositivo"
+        }
+      ],
+      "integracion_sistema_salud": [
+        {
+          "id_integracion_sistema_salud": 41,
+          "id_profesional_medico": 41,
+          "fecha_integracion": "2022-11-08T00:00:00Z",
+          "estado_integracion_sistema_salud": "Completa"
+        }
+      ],
+      "signos_vitales": [
+        {
+          "id_signo_vital": 41,
+          "tipo_signo_vital": "Frecuencia Cardíaca",
+          "valor": 77,
+          "fecha_registro": "2022-11-09T00:00:00Z"
+        }
+      ],
+      "conectividad": [
+        {
+          "id_conectividad": 41,
+          "fecha_conexion": "2022-11-10T00:00:00Z",
+          "estado_conectividad": "Conectado"
+        }
+      ],
+      "notificaciones": [
+        {
+          "id_notificacion": 41,
+          "tipo_notificacion": "Alerta",
+          "mensaje": "Frecuencia cardíaca alta",
+          "fecha_envio": "2022-11-11T00:00:00Z"
+        }
+      ],
+      "configuracion": [
+        {
+          "id_configuracion": 41,
+          "parametro": "Umbral frecuencia cardíaca",
+          "valor": "80"
+        }
+      ]
+    }
+  ],
+  "historial_salud": [
+    {
+      "id_historial_salud": 41,
+      "fecha_registro": "2022-11-12T00:00:00Z",
+      "descripcion": "Consulta médica",
+      "prescripciones": [
+        {
+          "id_prescripciones": 41,
+          "fecha_inicio": "2022-11-13T00:00:00Z",
+          "fecha_fin": "2022-12-31T00:00:00Z",
+          "recetas": [
+            {
+              "id_receta": 41,
+              "medicamento": "Carvedilol",
+              "dosis": "6.25mg",
+              "frecuencia": "Cada 12 horas",
+              "fecha_inicio": "2022-11-13T00:00:00Z",
+              "fecha_fin": "2022-12-31T00:00:00Z",
+              "notas": "Tomar con agua"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "agenda": [
+    {
+      "id_agenda": 41,
+      "id_receta": 41,
+      "id_dispositivo_movil": 41,
+      "fecha_y_hora_agenda": "2022-11-14T16:00:00Z"
+    }
+  ]
+},
+{
+  "_id": 42,
+  "id_adulto_mayor": 42,
+  "id_familiar": 42,
+  "nombre": "Carmen",
+  "apellido": "Díaz",
+  "fecha_nacimiento": "1962-06-18T00:00:00Z",
+  "genero": "Femenino",
+  "familiares": [
+    {
+      "id_familiar": 42,
+      "nombre": "Andrés",
+      "apellido": "Díaz",
+      "direccion": "Calle Nueva 404",
+      "telefono": "987654327",
+      "distrito": "Lince",
+      "provincia": "Lima"
+    }
+  ],
+  "vita_care_pulse": [
+    {
+      "id_vita_care_pulse": 42,
+      "numero_serie": "RST130",
+      "fecha_activacion": "2022-12-08T00:00:00Z",
+      "estado_vita_care_pulse": "Activo",
+      "logs": [
+        {
+          "id_log": 42,
+          "fecha_registro": "2022-12-08T00:00:00Z",
+          "descripcion": "Activación del dispositivo"
+        }
+      ],
+      "integracion_sistema_salud": [
+        {
+          "id_integracion_sistema_salud": 42,
+          "id_profesional_medico": 42,
+          "fecha_integracion": "2022-11-09T00:00:00Z",
+          "estado_integracion_sistema_salud": "Completa"
+        }
+      ],
+      "signos_vitales": [
+        {
+          "id_signo_vital": 42,
+          "tipo_signo_vital": "Frecuencia Cardíaca",
+          "valor": 73,
+          "fecha_registro": "2022-11-10T00:00:00Z"
+        }
+      ],
+      "conectividad": [
+        {
+          "id_conectividad": 42,
+          "fecha_conexion": "2022-11-11T00:00:00Z",
+          "estado_conectividad": "Conectado"
+        }
+      ],
+      "notificaciones": [
+        {
+          "id_notificacion": 42,
+          "tipo_notificacion": "Alerta",
+          "mensaje": "Frecuencia cardíaca alta",
+          "fecha_envio": "2022-11-12T00:00:00Z"
+        }
+      ],
+      "configuracion": [
+        {
+          "id_configuracion": 42,
+          "parametro": "Umbral frecuencia cardíaca",
+          "valor": "79"
+        }
+      ]
+    }
+  ],
+  "historial_salud": [
+    {
+      "id_historial_salud": 42,
+      "fecha_registro": "2022-11-13T00:00:00Z",
+      "descripcion": "Consulta médica",
+      "prescripciones": [
+        {
+          "id_prescripciones": 42,
+          "fecha_inicio": "2022-11-14T00:00:00Z",
+          "fecha_fin": "2022-12-31T00:00:00Z",
+          "recetas": [
+            {
+              "id_receta": 42,
+              "medicamento": "Nebivolol",
+              "dosis": "5mg",
+              "frecuencia": "Cada 24 horas",
+              "fecha_inicio": "2022-11-14T00:00:00Z",
+              "fecha_fin": "2022-12-31T00:00:00Z",
+              "notas": "Tomar en la mañana"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "agenda": [
+    {
+      "id_agenda": 42,
+      "id_receta": 42,
+      "id_dispositivo_movil": 42,
+      "fecha_y_hora_agenda": "2022-11-15T17:00:00Z"
+    }
+  ]
+},
+{
+  "_id": 43,
+  "id_adulto_mayor": 43,
+  "id_familiar": 43,
+  "nombre": "Raúl",
+  "apellido": "García",
+  "fecha_nacimiento": "1954-11-30T00:00:00Z",
+  "genero": "Masculino",
+  "familiares": [
+    {
+      "id_familiar": 43,
+      "nombre": "Silvia",
+      "apellido": "García",
+      "direccion": "Calle Vieja 505",
+      "telefono": "987654328",
+      "distrito": "Surquillo",
+      "provincia": "Lima"
+    }
+  ],
+  "vita_care_pulse": [
+    {
+      "id_vita_care_pulse": 43,
+      "numero_serie": "RST131",
+      "fecha_activacion": "2022-12-09T00:00:00Z",
+      "estado_vita_care_pulse": "Activo",
+      "logs": [
+        {
+          "id_log": 43,
+          "fecha_registro": "2022-12-09T00:00:00Z",
+          "descripcion": "Activación del dispositivo"
+        }
+      ],
+      "integracion_sistema_salud": [
+        {
+          "id_integracion_sistema_salud": 43,
+          "id_profesional_medico": 43,
+          "fecha_integracion": "2022-11-10T00:00:00Z",
+          "estado_integracion_sistema_salud": "Completa"
+        }
+      ],
+      "signos_vitales": [
+        {
+          "id_signo_vital": 43,
+          "tipo_signo_vital": "Frecuencia Cardíaca",
+          "valor": 71,
+          "fecha_registro": "2022-11-11T00:00:00Z"
+        }
+      ],
+      "conectividad": [
+        {
+          "id_conectividad": 43,
+          "fecha_conexion": "2022-11-12T00:00:00Z",
+          "estado_conectividad": "Conectado"
+        }
+      ],
+      "notificaciones": [
+        {
+          "id_notificacion": 43,
+          "tipo_notificacion": "Alerta",
+          "mensaje": "Frecuencia cardíaca alta",
+          "fecha_envio": "2022-11-13T00:00:00Z"
+        }
+      ],
+      "configuracion": [
+        {
+          "id_configuracion": 43,
+          "parametro": "Umbral frecuencia cardíaca",
+          "valor": "78"
+        }
+      ]
+    }
+  ],
+  "historial_salud": [
+    {
+      "id_historial_salud": 43,
+      "fecha_registro": "2022-11-14T00:00:00Z",
+      "descripcion": "Consulta médica",
+      "prescripciones": [
+        {
+          "id_prescripciones": 43,
+          "fecha_inicio": "2022-11-15T00:00:00Z",
+          "fecha_fin": "2022-12-31T00:00:00Z",
+          "recetas": [
+            {
+              "id_receta": 43,
+              "medicamento": "Bisoprolol",
+              "dosis": "2.5mg",
+              "frecuencia": "Cada 24 horas",
+              "fecha_inicio": "2022-11-15T00:00:00Z",
+              "fecha_fin": "2022-12-31T00:00:00Z",
+              "notas": "Tomar después del desayuno"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "agenda": [
+    {
+      "id_agenda": 43,
+      "id_receta": 43,
+      "id_dispositivo_movil": 43,
+      "fecha_y_hora_agenda": "2022-11-16T18:00:00Z"
+    }
+  ]
+},
+{
+  "_id": 44,
+  "id_adulto_mayor": 44,
+  "id_familiar": 44,
+  "nombre": "Ana",
+  "apellido": "Torres",
+  "fecha_nacimiento": "1961-03-22T00:00:00Z",
+  "genero": "Femenino",
+  "familiares": [
+    {
+      "id_familiar": 44,
+      "nombre": "Mario",
+      "apellido": "Torres",
+      "direccion": "Avenida Pardo 606",
+      "telefono": "987654329",
+      "distrito": "Barranco",
+      "provincia": "Lima"
+    }
+  ],
+  "vita_care_pulse": [
+    {
+      "id_vita_care_pulse": 44,
+      "numero_serie": "RST132",
+      "fecha_activacion": "2022-12-10T00:00:00Z",
+      "estado_vita_care_pulse": "Activo",
+      "logs": [
+        {
+          "id_log": 44,
+          "fecha_registro": "2022-12-10T00:00:00Z",
+          "descripcion": "Activación del dispositivo"
+        }
+      ],
+      "integracion_sistema_salud": [
+        {
+          "id_integracion_sistema_salud": 44,
+          "id_profesional_medico": 44,
+          "fecha_integracion": "2022-11-11T00:00:00Z",
+          "estado_integracion_sistema_salud": "Completa"
+        }
+      ],
+      "signos_vitales": [
+        {
+          "id_signo_vital": 44,
+          "tipo_signo_vital": "Frecuencia Cardíaca",
+          "valor": 74,
+          "fecha_registro": "2022-11-12T00:00:00Z"
+        }
+      ],
+      "conectividad": [
+        {
+          "id_conectividad": 44,
+          "fecha_conexion": "2022-11-13T00:00:00Z",
+          "estado_conectividad": "Conectado"
+        }
+      ],
+      "notificaciones": [
+        {
+          "id_notificacion": 44,
+          "tipo_notificacion": "Alerta",
+          "mensaje": "Frecuencia cardíaca alta",
+          "fecha_envio": "2022-11-14T00:00:00Z"
+        }
+      ],
+      "configuracion": [
+        {
+          "id_configuracion": 44,
+          "parametro": "Umbral frecuencia cardíaca",
+          "valor": "78"
+        }
+      ]
+    }
+  ],
+  "historial_salud": [
+    {
+      "id_historial_salud": 44,
+      "fecha_registro": "2022-11-15T00:00:00Z",
+      "descripcion": "Consulta médica",
+      "prescripciones": [
+        {
+          "id_prescripciones": 44,
+          "fecha_inicio": "2022-11-16T00:00:00Z",
+          "fecha_fin": "2022-12-31T00:00:00Z",
+          "recetas": [
+            {
+              "id_receta": 44,
+              "medicamento": "Losartan",
+              "dosis": "50mg",
+              "frecuencia": "Cada 24 horas",
+              "fecha_inicio": "2022-11-16T00:00:00Z",
+              "fecha_fin": "2022-12-31T00:00:00Z",
+              "notas": "Tomar en la mañana"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "agenda": [
+    {
+      "id_agenda": 44,
+      "id_receta": 44,
+      "id_dispositivo_movil": 44,
+      "fecha_y_hora_agenda": "2022-11-17T19:00:00Z"
+    }
+  ]
+},
+{
+  "_id": 45,
+  "id_adulto_mayor": 45,
+  "id_familiar": 45,
+  "nombre": "María",
+  "apellido": "Fernández",
+  "fecha_nacimiento": "1958-09-05T00:00:00Z",
+  "genero": "Femenino",
+  "familiares": [
+    {
+      "id_familiar": 45,
+      "nombre": "Jose",
+      "apellido": "Fernández",
+      "direccion": "Calle Alameda 707",
+      "telefono": "987654330",
+      "distrito": "San Borja",
+      "provincia": "Lima"
+    }
+  ],
+  "vita_care_pulse": [
+    {
+      "id_vita_care_pulse": 45,
+      "numero_serie": "RST133",
+      "fecha_activacion": "2022-12-11T00:00:00Z",
+      "estado_vita_care_pulse": "Activo",
+      "logs": [
+        {
+          "id_log": 45,
+          "fecha_registro": "2022-12-11T00:00:00Z",
+          "descripcion": "Activación del dispositivo"
+        }
+      ],
+      "integracion_sistema_salud": [
+        {
+          "id_integracion_sistema_salud": 45,
+          "id_profesional_medico": 45,
+          "fecha_integracion": "2022-11-12T00:00:00Z",
+          "estado_integracion_sistema_salud": "Completa"
+        }
+      ],
+      "signos_vitales": [
+        {
+          "id_signo_vital": 45,
+          "tipo_signo_vital": "Frecuencia Cardíaca",
+          "valor": 76,
+          "fecha_registro": "2022-11-13T00:00:00Z"
+        }
+      ],
+      "conectividad": [
+        {
+          "id_conectividad": 45,
+          "fecha_conexion": "2022-11-14T00:00:00Z",
+          "estado_conectividad": "Conectado"
+        }
+      ],
+      "notificaciones": [
+        {
+          "id_notificacion": 45,
+          "tipo_notificacion": "Alerta",
+          "mensaje": "Frecuencia cardíaca alta",
+          "fecha_envio": "2022-11-15T00:00:00Z"
+        }
+      ],
+      "configuracion": [
+        {
+          "id_configuracion": 45,
+          "parametro": "Umbral frecuencia cardíaca",
+          "valor": "77"
+        }
+      ]
+    }
+  ],
+  "historial_salud": [
+    {
+      "id_historial_salud": 45,
+      "fecha_registro": "2022-11-16T00:00:00Z",
+      "descripcion": "Consulta médica",
+      "prescripciones": [
+        {
+          "id_prescripciones": 45,
+          "fecha_inicio": "2022-11-17T00:00:00Z",
+          "fecha_fin": "2022-12-31T00:00:00Z",
+          "recetas": [
+            {
+              "id_receta": 45,
+              "medicamento": "Metoprolol",
+              "dosis": "25mg",
+              "frecuencia": "Cada 12 horas",
+              "fecha_inicio": "2022-11-17T00:00:00Z",
+              "fecha_fin": "2022-12-31T00:00:00Z",
+              "notas": "Tomar con agua"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "agenda": [
+    {
+      "id_agenda": 45,
+      "id_receta": 45,
+      "id_dispositivo_movil": 45,
+      "fecha_y_hora_agenda": "2022-11-18T20:00:00Z"
+    }
+  ]
+},
+{
+  "_id": 46,
+  "id_adulto_mayor": 46,
+  "id_familiar": 46,
+  "nombre": "Pedro",
+  "apellido": "Ramírez",
+  "fecha_nacimiento": "1952-04-18T00:00:00Z",
+  "genero": "Masculino",
+  "familiares": [
+    {
+      "id_familiar": 46,
+      "nombre": "Lucia",
+      "apellido": "Ramírez",
+      "direccion": "Calle Sol 808",
+      "telefono": "987654331",
+      "distrito": "La Molina",
+      "provincia": "Lima"
+    }
+  ],
+  "vita_care_pulse": [
+    {
+      "id_vita_care_pulse": 46,
+      "numero_serie": "RST134",
+      "fecha_activacion": "2022-12-12T00:00:00Z",
+      "estado_vita_care_pulse": "Activo",
+      "logs": [
+        {
+          "id_log": 46,
+          "fecha_registro": "2022-12-12T00:00:00Z",
+          "descripcion": "Activación del dispositivo"
+        }
+      ],
+      "integracion_sistema_salud": [
+        {
+          "id_integracion_sistema_salud": 46,
+          "id_profesional_medico": 46,
+          "fecha_integracion": "2022-11-13T00:00:00Z",
+          "estado_integracion_sistema_salud": "Completa"
+        }
+      ],
+      "signos_vitales": [
+        {
+          "id_signo_vital": 46,
+          "tipo_signo_vital": "Frecuencia Cardíaca",
+          "valor": 77,
+          "fecha_registro": "2022-11-14T00:00:00Z"
+        }
+      ],
+      "conectividad": [
+        {
+          "id_conectividad": 46,
+          "fecha_conexion": "2022-11-15T00:00:00Z",
+          "estado_conectividad": "Conectado"
+        }
+      ],
+      "notificaciones": [
+        {
+          "id_notificacion": 46,
+          "tipo_notificacion": "Alerta",
+          "mensaje": "Frecuencia cardíaca alta",
+          "fecha_envio": "2022-11-16T00:00:00Z"
+        }
+      ],
+      "configuracion": [
+        {
+          "id_configuracion": 46,
+          "parametro": "Umbral frecuencia cardíaca",
+          "valor": "76"
+        }
+      ]
+    }
+  ],
+  "historial_salud": [
+    {
+      "id_historial_salud": 46,
+      "fecha_registro": "2022-11-17T00:00:00Z",
+      "descripcion": "Consulta médica",
+      "prescripciones": [
+        {
+          "id_prescripciones": 46,
+          "fecha_inicio": "2022-11-18T00:00:00Z",
+          "fecha_fin": "2022-12-31T00:00:00Z",
+          "recetas": [
+            {
+              "id_receta": 46,
+              "medicamento": "Atenolol",
+              "dosis": "50mg",
+              "frecuencia": "Cada 24 horas",
+              "fecha_inicio": "2022-11-18T00:00:00Z",
+              "fecha_fin": "2022-12-31T00:00:00Z",
+              "notas": "Tomar por la mañana"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "agenda": [
+    {
+      "id_agenda": 46,
+      "id_receta": 46,
+      "id_dispositivo_movil": 46,
+      "fecha_y_hora_agenda": "2022-11-19T21:00:00Z"
+    }
+  ]
+},
+{
+  "_id": 47,
+  "id_adulto_mayor": 47,
+  "id_familiar": 47,
+  "nombre": "Luis",
+  "apellido": "Martínez",
+  "fecha_nacimiento": "1957-12-01T00:00:00Z",
+  "genero": "Masculino",
+  "familiares": [
+    {
+      "id_familiar": 47,
+      "nombre": "Rosa",
+      "apellido": "Martínez",
+      "direccion": "Avenida Central 909",
+      "telefono": "987654332",
+      "distrito": "Santiago de Surco",
+      "provincia": "Lima"
+    }
+  ],
+  "vita_care_pulse": [
+    {
+      "id_vita_care_pulse": 47,
+      "numero_serie": "RST135",
+      "fecha_activacion": "2022-12-13T00:00:00Z",
+      "estado_vita_care_pulse": "Activo",
+      "logs": [
+        {
+          "id_log": 47,
+          "fecha_registro": "2022-12-13T00:00:00Z",
+          "descripcion": "Activación del dispositivo"
+        }
+      ],
+      "integracion_sistema_salud": [
+        {
+          "id_integracion_sistema_salud": 47,
+          "id_profesional_medico": 47,
+          "fecha_integracion": "2022-11-13T00:00:00Z",
+          "estado_integracion_sistema_salud": "Completa"
+        }
+      ],
+      "signos_vitales": [
+        {
+          "id_signo_vital": 47,
+          "tipo_signo_vital": "Frecuencia Cardíaca",
+          "valor": 77,
+          "fecha_registro": "2022-11-14T00:00:00Z"
+        }
+      ],
+      "conectividad": [
+        {
+          "id_conectividad": 47,
+          "fecha_conexion": "2022-11-15T00:00:00Z",
+          "estado_conectividad": "Conectado"
+        }
+      ],
+      "notificaciones": [
+        {
+          "id_notificacion": 47,
+          "tipo_notificacion": "Alerta",
+          "mensaje": "Frecuencia cardíaca alta",
+          "fecha_envio": "2022-11-16T00:00:00Z"
+        }
+      ],
+      "configuracion": [
+        {
+          "id_configuracion": 47,
+          "parametro": "Umbral frecuencia cardíaca",
+          "valor": "76"
+        }
+      ]
+    }
+  ],
+  "historial_salud": [
+    {
+      "id_historial_salud": 47,
+      "fecha_registro": "2022-11-17T00:00:00Z",
+      "descripcion": "Consulta médica",
+      "prescripciones": [
+        {
+          "id_prescripciones": 47,
+          "fecha_inicio": "2022-11-18T00:00:00Z",
+          "fecha_fin": "2022-12-31T00:00:00Z",
+          "recetas": [
+            {
+              "id_receta": 47,
+              "medicamento": "Atenolol",
+              "dosis": "50mg",
+              "frecuencia": "Cada 24 horas",
+              "fecha_inicio": "2022-11-18T00:00:00Z",
+              "fecha_fin": "2022-12-31T00:00:00Z",
+              "notas": "Tomar por la mañana"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "agenda": [
+    {
+      "id_agenda": 47,
+      "id_receta": 47,
+      "id_dispositivo_movil": 47,
+      "fecha_y_hora_agenda": "2022-11-19T21:00:00Z"
+    }
+  ]
+},
+{
+  "_id": 48,
+  "id_adulto_mayor": 48,
+  "id_familiar": 48,
+  "nombre": "Roberto",
+  "apellido": "González",
+  "fecha_nacimiento": "1950-10-12T00:00:00Z",
+  "genero": "Masculino",
+  "familiares": [
+    {
+      "id_familiar": 48,
+      "nombre": "Andrea",
+      "apellido": "González",
+      "direccion": "Calle Real 1111",
+      "telefono": "987654334",
+      "distrito": "Lince",
+      "provincia": "Lima"
+    }
+  ],
+  "vita_care_pulse": [
+    {
+      "id_vita_care_pulse": 48,
+      "numero_serie": "RST137",
+      "fecha_activacion": "2022-12-15T00:00:00Z",
+      "estado_vita_care_pulse": "Activo",
+      "logs": [
+        {
+          "id_log": 48,
+          "fecha_registro": "2022-12-15T00:00:00Z",
+          "descripcion": "Activación del dispositivo"
+        }
+      ],
+      "integracion_sistema_salud": [
+        {
+          "id_integracion_sistema_salud": 48,
+          "id_profesional_medico": 48,
+          "fecha_integracion": "2022-11-16T00:00:00Z",
+          "estado_integracion_sistema_salud": "Completa"
+        }
+      ],
+      "signos_vitales": [
+        {
+          "id_signo_vital": 48,
+          "tipo_signo_vital": "Frecuencia Cardíaca",
+          "valor": 79,
+          "fecha_registro": "2022-11-17T00:00:00Z"
+        }
+      ],
+      "conectividad": [
+        {
+          "id_conectividad": 48,
+          "fecha_conexion": "2022-11-18T00:00:00Z",
+          "estado_conectividad": "Conectado"
+        }
+      ],
+      "notificaciones": [
+        {
+          "id_notificacion": 48,
+          "tipo_notificacion": "Alerta",
+          "mensaje": "Frecuencia cardíaca alta",
+          "fecha_envio": "2022-11-19T00:00:00Z"
+        }
+      ],
+      "configuracion": [
+        {
+          "id_configuracion": 48,
+          "parametro": "Umbral frecuencia cardíaca",
+          "valor": "81"
+        }
+      ]
+    }
+  ],
+  "historial_salud": [
+    {
+      "id_historial_salud": 48,
+      "fecha_registro": "2022-11-19T00:00:00Z",
+      "descripcion": "Consulta médica",
+      "prescripciones": [
+        {
+          "id_prescripciones": 48,
+          "fecha_inicio": "2022-11-20T00:00:00Z",
+          "fecha_fin": "2022-12-31T00:00:00Z",
+          "recetas": [
+            {
+              "id_receta": 48,
+              "medicamento": "Enalapril",
+              "dosis": "10mg",
+              "frecuencia": "Cada 12 horas",
+              "fecha_inicio": "2022-11-20T00:00:00Z",
+              "fecha_fin": "2022-12-31T00:00:00Z",
+              "notas": "Tomar con agua"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "agenda": [
+    {
+      "id_agenda": 48,
+      "id_receta": 48,
+      "id_dispositivo_movil": 48,
+      "fecha_y_hora_agenda": "2022-11-21T23:00:00Z"
+    }
+  ]
+},
+{
+  "_id": 49,
+  "id_adulto_mayor": 49,
+  "id_familiar": 49,
+  "nombre": "Roberto",
+  "apellido": "González",
+  "fecha_nacimiento": "1950-10-12T00:00:00Z",
+  "genero": "Masculino",
+  "familiares": [
+    {
+      "id_familiar": 49,
+      "nombre": "Andrea",
+      "apellido": "González",
+      "direccion": "Calle Real 1111",
+      "telefono": "987654334",
+      "distrito": "Lince",
+      "provincia": "Lima"
+    }
+  ],
+  "vita_care_pulse": [
+    {
+      "id_vita_care_pulse": 49,
+      "numero_serie": "RST137",
+      "fecha_activacion": "2022-12-15T00:00:00Z",
+      "estado_vita_care_pulse": "Activo",
+      "logs": [
+        {
+          "id_log": 49,
+          "fecha_registro": "2022-12-15T00:00:00Z",
+          "descripcion": "Activación del dispositivo"
+        }
+      ],
+      "integracion_sistema_salud": [
+        {
+          "id_integracion_sistema_salud": 49,
+          "id_profesional_medico": 49,
+          "fecha_integracion": "2022-11-16T00:00:00Z",
+          "estado_integracion_sistema_salud": "Completa"
+        }
+      ],
+      "signos_vitales": [
+        {
+          "id_signo_vital": 49,
+          "tipo_signo_vital": "Frecuencia Cardíaca",
+          "valor": 79,
+          "fecha_registro": "2022-11-17T00:00:00Z"
+        }
+      ],
+      "conectividad": [
+        {
+          "id_conectividad": 49,
+          "fecha_conexion": "2022-11-18T00:00:00Z",
+          "estado_conectividad": "Conectado"
+        }
+      ],
+      "notificaciones": [
+        {
+          "id_notificacion": 49,
+          "tipo_notificacion": "Alerta",
+          "mensaje": "Frecuencia cardíaca alta",
+          "fecha_envio": "2022-11-19T00:00:00Z"
+        }
+      ],
+      "configuracion": [
+        {
+          "id_configuracion": 49,
+          "parametro": "Umbral frecuencia cardíaca",
+          "valor": "81"
+        }
+      ]
+    }
+  ],
+  "historial_salud": [
+    {
+      "id_historial_salud": 49,
+      "fecha_registro": "2022-11-20T00:00:00Z",
+      "descripcion": "Consulta médica",
+      "prescripciones": [
+        {
+          "id_prescripciones": 49,
+          "fecha_inicio": "2022-11-21T00:00:00Z",
+          "fecha_fin": "2022-12-31T00:00:00Z",
+          "recetas": [
+            {
+              "id_receta": 49,
+              "medicamento": "Valsartan",
+              "dosis": "160mg",
+              "frecuencia": "Cada 24 horas",
+              "fecha_inicio": "2022-11-21T00:00:00Z",
+              "fecha_fin": "2022-12-31T00:00:00Z",
+              "notas": "Tomar en la noche"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "agenda": [
+    {
+      "id_agenda": 49,
+      "id_receta": 49,
+      "id_dispositivo_movil": 49,
+      "fecha_y_hora_agenda": "2022-11-22T08:00:00Z"
+    }
+  ]
+},
+{
+  "_id": 50,
+  "id_adulto_mayor": 50,
+  "id_familiar": 50,
+  "nombre": "Gloria",
+  "apellido": "Vargas",
+  "fecha_nacimiento": "1954-11-09T00:00:00Z",
+  "genero": "Femenino",
+  "familiares": [
+    {
+      "id_familiar": 50,
+      "nombre": "Miguel",
+      "apellido": "Vargas",
+      "direccion": "Avenida Primavera 1212",
+      "telefono": "987654335",
+      "distrito": "Magdalena del Mar",
+      "provincia": "Lima"
+    }
+  ],
+  "vita_care_pulse": [
+    {
+      "id_vita_care_pulse": 50,
+      "numero_serie": "RST138",
+      "fecha_activacion": "2022-12-16T00:00:00Z",
+      "estado_vita_care_pulse": "Activo",
+      "logs": [
+        {
+          "id_log": 50,
+          "fecha_registro": "2022-12-16T00:00:00Z",
+          "descripcion": "Activación del dispositivo"
+        }
+      ],
+      "integracion_sistema_salud": [
+        {
+          "id_integracion_sistema_salud": 50,
+          "id_profesional_medico": 50,
+          "fecha_integracion": "2022-11-17T00:00:00Z",
+          "estado_integracion_sistema_salud": "Completa"
+        }
+      ],
+      "signos_vitales": [
+        {
+          "id_signo_vital": 50,
+          "tipo_signo_vital": "Frecuencia Cardíaca",
+          "valor": 80,
+          "fecha_registro": "2022-11-18T00:00:00Z"
+        }
+      ],
+      "conectividad": [
+        {
+          "id_conectividad": 50,
+          "fecha_conexion": "2022-11-19T00:00:00Z",
+          "estado_conectividad": "Conectado"
+        }
+      ],
+      "notificaciones": [
+        {
+          "id_notificacion": 50,
+          "tipo_notificacion": "Alerta",
+          "mensaje": "Frecuencia cardíaca alta",
+          "fecha_envio": "2022-11-20T00:00:00Z"
+        }
+      ],
+      "configuracion": [
+        {
+          "id_configuracion": 50,
+          "parametro": "Umbral frecuencia cardíaca",
+          "valor": "79"
+        }
+      ]
+    }
+  ],
+  "historial_salud": [
+    {
+      "id_historial_salud": 50,
+      "fecha_registro": "2022-11-21T00:00:00Z",
+      "descripcion": "Consulta médica",
+      "prescripciones": [
+        {
+          "id_prescripciones": 50,
+          "fecha_inicio": "2022-11-22T00:00:00Z",
+          "fecha_fin": "2022-12-31T00:00:00Z",
+          "recetas": [
+            {
+              "id_receta": 50,
+              "medicamento": "Lisinopril",
+              "dosis": "20mg",
+              "frecuencia": "Cada 24 horas",
+              "fecha_inicio": "2022-11-22T00:00:00Z",
+              "fecha_fin": "2022-12-31T00:00:00Z",
+              "notas": "Tomar por la tarde"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "agenda": [
+    {
+      "id_agenda": 50,
+      "id_receta": 50,
+      "id_dispositivo_movil": 50,
+      "fecha_y_hora_agenda": "2022-11-23T07:00:00Z"
+    }
+  ]
+}]

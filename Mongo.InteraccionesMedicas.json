@@ -1,0 +1,32 @@
+[{
+  "_id": {
+    "$oid": "6738c2bef132ec146b04d4d5"
+  },
+  "id_profesional_medico": 2,
+  "id_adulto_mayor": 2,
+  "id_vita_care_pulse": 2,
+  "fecha_interaccion": "2020-01-10T00:00:00Z",
+  "tipo_interaccion": "Consulta",
+  "descripcion": "Revisión de los datos de presión arterial.",
+  "notificaciones": [
+    {
+      "id_notificacion": 2,
+      "tipo_notificacion": "Alerta",
+      "mensaje": "Alta presión arterial",
+      "fecha_envio": "2020-01-05T00:00:00Z"
+    }
+  ],
+  "recomendaciones": [
+    {
+      "id_recomendacion": 2,
+      "descripcion": "Ajustar umbral de presión arterial en el dispositivo."
+    }
+  ],
+  "historial_salud": [
+    {
+      "id_historial_salud": 2,
+      "fecha_registro": "2020-01-06T00:00:00Z",
+      "descripcion": "Control anual - Presión arterial"
+    }
+  ]
+}]

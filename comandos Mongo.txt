@@ -1,0 +1,45 @@
+use Mongo;
+
+db.InteraccionesMedicas.insertOne({
+  "_id":1,
+  "id_profesional_medico": 1,
+  "id_adulto_mayor": 1,
+  "id_vita_care_pulse": 1,
+  "fecha_interaccion": "2020-01-10T00:00:00Z",
+  "tipo_interaccion": "Consulta",
+  "descripcion": "Revisión de los datos de presión arterial.",
+  "notificaciones": [
+    {
+      "id_notificacion": 1,
+      "tipo_notificacion": "Alerta",
+      "mensaje": "Alta presión arterial",
+      "fecha_envio": "2020-01-05T00:00:00Z"
+    }
+  ],
+  "recomendaciones": [
+    {
+      "id_recomendacion": 1,
+      "descripcion": "Ajustar umbral de presión arterial en el dispositivo."
+    }
+  ],
+  "historial_salud": [
+    {
+      "id_historial_salud": 1,
+      "fecha_registro": "2020-01-06T00:00:00Z",
+      "descripcion": "Control anual - Presión arterial"
+    }
+  ]
+});
+
+
+db.InteraccionesMedicas.find();
+db.InteraccionesMedicas.findOne({"_id":1});
+db.InteraccionesMedicas.find({"id_profesional_medico": 1});
+
+
+db.InteraccionesMedicas.updateOne(
+  {"_id": 1},
+  {$set: {"descripcion": "Actualización de datos de presión arterial"}}
+);
+
+db.InteraccionesMedicas.deleteOne({"_id": 1});
