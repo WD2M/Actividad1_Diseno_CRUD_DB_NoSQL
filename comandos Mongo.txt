@@ -1,45 +1,9 @@
-use Mongo;
+mongod --replSet RS --dbpath="C:\Program Files\MongoDB\Server\8.0\data\Replica_1" --port 27021
+mongod --replSet RS --dbpath="C:\Program Files\MongoDB\Server\8.0\data\Replica_2" --port 27022
+mongod --replSet RS --dbpath="C:\Program Files\MongoDB\Server\8.0\data\Replica_3" --port 27023
 
-db.InteraccionesMedicas.insertOne({
-  "_id":1,
-  "id_profesional_medico": 1,
-  "id_adulto_mayor": 1,
-  "id_vita_care_pulse": 1,
-  "fecha_interaccion": "2020-01-10T00:00:00Z",
-  "tipo_interaccion": "Consulta",
-  "descripcion": "Revisión de los datos de presión arterial.",
-  "notificaciones": [
-    {
-      "id_notificacion": 1,
-      "tipo_notificacion": "Alerta",
-      "mensaje": "Alta presión arterial",
-      "fecha_envio": "2020-01-05T00:00:00Z"
-    }
-  ],
-  "recomendaciones": [
-    {
-      "id_recomendacion": 1,
-      "descripcion": "Ajustar umbral de presión arterial en el dispositivo."
-    }
-  ],
-  "historial_salud": [
-    {
-      "id_historial_salud": 1,
-      "fecha_registro": "2020-01-06T00:00:00Z",
-      "descripcion": "Control anual - Presión arterial"
-    }
-  ]
-});
+mongosh --host localhost --port 27021
 
+rs.initiate({ _id : "RS", members: [{ _id: 0, host: "localhost:27018" }, {_id: 1, host: "localhost:27019" }, { _id: 2, host: "localhost:27020" }]}) 
 
-db.InteraccionesMedicas.find();
-db.InteraccionesMedicas.findOne({"_id":1});
-db.InteraccionesMedicas.find({"id_profesional_medico": 1});
-
-
-db.InteraccionesMedicas.updateOne(
-  {"_id": 1},
-  {$set: {"descripcion": "Actualización de datos de presión arterial"}}
-);
-
-db.InteraccionesMedicas.deleteOne({"_id": 1});
+rs.status()
