@@ -1,10 +1,36 @@
-mongod --replSet RS --dbpath="C:\Program Files\MongoDB\Server\8.0\data\Replica_1" --port 27021
-mongod --replSet RS --dbpath="C:\Program Files\MongoDB\Server\8.0\data\Replica_2" --port 27022
-mongod --replSet RS --dbpath="C:\Program Files\MongoDB\Server\8.0\data\Replica_3" --port 27023
+cluster = new ShardingTest({shards: 3, chunksize: 1})
 
-mongosh --host localhost --port 27021
+###segunda ventana###
+db = (new Mongo("localhost:20006")).getDB("Torneo")
 
-rs.initiate({ _id : "RS", members: [{ _id: 0, host: "localhost:27018" }, {_id: 1, host: "localhost:27019" }, { _id: 2, host: "localhost:27020" }]}) 
- 
-rs.status()
+for (i=0; i < 10000; i++) { 
+db.equipos.insert((Id_equipo: "EQU" +i, nombre: "Equipo número-" +i, pais: "Pais-" +1 });
+}
 
+db.equipos.count()
+
+###Tercera Ventana###
+shard1 = new Mongo("localhost:20000")
+shard1DB = shard1.getDB("Torneo")
+shard1DB.equipos.count()
+
+shard2 = new Mongo("localhost:20001")
+shard2DB = shard2.getDB("Torneo")
+shard2DB.equipos.count()
+
+shard3 = new Mongo("localhost:20002")
+shard3DB shard3.getDB("Torneo")
+shard3DB.equipos.count()
+
+### segunda ventana###
+shard1 = new Mongo("localhost:20006")
+sh.status()
+sh.enableSharding("Torneo")
+sh.status()
+
+###Cuarta Ventana###
+db.equipos.ensureIndex({Id_equipo : 1))
+sh.shardCollection("Torneo.equipos", { Id_equipo: 1})
+sh.getBalancerState()
+sh.setBalancerState(true)
+sh.status()
